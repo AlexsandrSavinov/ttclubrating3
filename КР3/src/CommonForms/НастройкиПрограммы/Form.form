@@ -15,7 +15,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.ЗаголовокОкна</segments>
+          <segments>НаборКонстант.ЗаголовокСистемы</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -803,56 +803,6 @@
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>ПроверятьОбновлениеПрограммы</name>
-        <id>12</id>
-        <title>
-          <key>ru</key>
-          <value>Проверять обновление программы при включении</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.ПроверятьОбновлениеПрограммы</segments>
-        </dataPath>
-        <titleLocation>Right</titleLocation>
-        <extendedTooltip>
-          <name>ПроверятьОбновлениеПрограммыРасширеннаяПодсказка</name>
-          <id>69</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ПроверятьОбновлениеПрограммыКонтекстноеМеню</name>
-          <id>13</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>CheckBoxField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-          <checkBoxType>Switcher</checkBoxType>
         </extInfo>
       </items>
       <visible>true</visible>

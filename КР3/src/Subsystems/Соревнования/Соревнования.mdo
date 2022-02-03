@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5077fec0-0e6d-4e5c-b495-3087dc30c4b2">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5077fec0-0e6d-4e5c-b495-3087dc30c4b2">
   <name>Соревнования</name>
   <synonym>
     <key>ru</key>
     <value>Проведение соревнований</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
-  <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.кСоревнования</picture>
-  </picture>
   <content>Document.ПроведениеСоревнования</content>
   <content>CommonPicture.кСоревнования</content>
   <content>InformationRegister.ИсторияСоревнований</content>
@@ -20,7 +16,7 @@
   <content>CommonPicture.ЗаписатьДанные</content>
   <content>Report.ТекущийРейтингУчастников</content>
   <content>CommonPicture.КартинкаВыборВГрупповомЭтапе</content>
-  <content>Document.ВводНачальногоРейтинга</content>
+  <content>Document.КорректировкаРейтинга</content>
   <content>CommonPicture.РезультатЖеребьевки</content>
   <content>Document.ПрисвоитьРазряд</content>
   <content>InformationRegister.ДетализацияПриростаРейтинга</content>

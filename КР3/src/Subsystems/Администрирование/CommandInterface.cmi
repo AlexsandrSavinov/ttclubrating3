@@ -6,19 +6,11 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:d0106f3a-8490-4277-a278-75c318ec252c</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Catalog.ВнешниеПользователи.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:d917c19e-be15-41cc-9c8a-a97c8de85309</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -44,43 +36,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:679cc0df-df5c-4c33-8c64-c0b6cee39116</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Catalog.ТомаХраненияФайлов.StandardCommand.OpenList</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:876e31ff-ab7b-4ea4-b491-161963727dd1</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:38fc1e6e-7cd3-437b-b429-6655be34cd01</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:95a71c2e-aa39-42ec-8889-2390a553f146</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:1d6b8425-360c-4ab1-9bab-cc9a3b590bb2</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:b56f25d2-72a9-4d80-8998-77ac3097c873</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:344cb0de-315d-4d05-93f8-8a1f53208470</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:f692ab21-a8de-4feb-914f-4beef350543a</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -88,27 +44,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:2e0b331d-92d4-4250-94c6-9ced8cdcb1e4</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>InformationRegister.НастройкиВерсионированияОбъектов.StandardCommand.OpenList</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:b8a966ba-3452-44df-91d0-7040ecd3e4c2</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:2a6e1f2b-7378-456b-9657-9e971eaff716</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:c3cdea20-3055-4b4e-a531-a02d4f3ed294</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:e25b2b10-bf08-42db-9642-861efc5e583b</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -120,58 +56,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:0d89036c-af6e-4709-847c-0dab74a33d72</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:55bce105-51c0-452e-9eec-b960fe740db2</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:afe79ef0-7830-43ce-85f3-c4c97831aa67</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:a4b6920e-3e25-4798-809a-27d7bfae4ee7</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:9a7b964d-1c06-44af-8d25-f84493c70a42</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:981f6e35-64b8-4d63-b383-32ea71fcd025</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:33fa908a-5516-43c8-94d3-28c60eba8d66</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:1610e73c-58df-41cc-8349-51b920806821</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:1e14d062-1d5a-4939-8ce6-4d9514990376</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:8b5358e9-5810-45a7-a49e-fe7fe63c73f3</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:4883cb3d-4ab3-4e0e-bddb-ae8852547a3c</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:75ffd0b9-79be-4600-a310-591fddb6d63e</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>DataProcessor.АктивныеПользователи.Command.АктивныеПользователи</command>
       <visible/>
     </visibilityFragments>
@@ -181,26 +65,6 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.ГруппыПользователей.StandardCommand.OpenList</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:d5507c4b-2185-4938-9b9f-9f424e9592a4</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:c411827b-fa66-4a84-9560-12ffff43ba8b</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:2a5a6e14-d41b-4218-8cf5-c59d5c683350</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:f31f3dab-5796-47ac-a54d-3081f8cad817</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:3dec1ae7-90bb-45ab-aa04-48cfbc14742e</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -220,19 +84,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:bcd705ba-c9ac-4e73-94b1-7632c0f06c04</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:8fbf9432-77e8-4951-87a1-4368e3a5e117</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Report.ОбъемНенужныхФайлов.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:269ada84-71a9-4b4b-9604-caa40c5b7067</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -268,22 +120,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:a469e55e-d7ca-4c27-b350-fafe7364c18f</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:d03f66b1-48a3-434b-bb58-9fd53c183514</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>100:5e01ee62-d690-42bd-997e-491c90ea1c56</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:b40d32dd-ac4a-41b4-b009-86cb9cdb3370</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>CommonCommand.ДополнительныеОбработкиАдминистрирование</command>
       <visible/>
     </visibilityFragments>
@@ -296,15 +132,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:f36150de-33af-4410-8a4c-8c9f4b545793</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>DataProcessor.НастройкиПользователей.Command.КопированиеНастроекПользователей</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>100:38bf6d3b-5435-4bac-b9fc-23b80afeb760</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -316,15 +144,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:e0227e4b-be22-4614-8980-5d573fae705d</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>DataProcessor.НастройкиПользователей.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>100:fabbac92-cb98-4087-b3fa-387482ed0d86</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -332,15 +152,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:256618cc-0956-4cda-9691-e4ced68a791f</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>DataProcessor.НастройкиПользователей.Command.ОчисткаНастроекПользователей</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>100:4399c19a-ddba-42e9-88b4-c5c28abad237</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -364,39 +176,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:c9035b0f-cfc4-4761-9ba0-a8aacfaa9c72</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:3a93f1d2-3e9c-41a9-9d53-314538a96bb2</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:0ec0b1a0-5f0d-4a14-9a84-49098befa0af</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>100:26986f8d-d56d-4641-9184-2632d0881cca</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>100:304525f8-c697-4835-b0a6-4ed3cbcaf3c6</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>100:4d660fec-4a76-470e-bba9-3d031941b289</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>100:144676de-f369-49f1-bb21-d60e073936df</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>CommonForm.Расширения.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:7a7b7882-a4c1-40c8-a807-cb2d71d054cc</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -404,39 +184,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:6f36007b-04dc-4007-abf7-e20fbd126b97</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:f38bb317-8a59-4786-be76-e1d4e534628d</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:13b3c973-6be3-4898-89d5-20852cd14e46</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:be0fbbfc-5873-41a6-80ef-35ed1b8adb4c</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:7904d64a-2c30-4434-8924-b4817b727db9</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:413c2d03-f717-4503-9723-c605114b2799</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>CommonForm.УстановленныеИсправления.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:37e36a72-4f28-44c7-9c73-f4c445f7722e</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:70a06a02-8fb8-4a39-9e50-b7c27c41f49f</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -444,11 +192,11 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:25741b39-1c6b-4851-8584-9711d25ef05a</command>
+      <command>DataProcessor.ПанельАдминистрированияБСП.Command.СинхронизацияДанных</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:53fb35a7-44ab-42e7-8dba-6fa08bf5ba2c</command>
+      <command>DataProcessor.ПанельАдминистрированияБСП.Command.ИнтернетПоддержкаИСервисы</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>
@@ -456,10 +204,8 @@
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
-      <commands>0:d0106f3a-8490-4277-a278-75c318ec252c</commands>
       <commands>Catalog.ВнешниеПользователи.StandardCommand.OpenList</commands>
       <commands>DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации</commands>
-      <commands>0:d917c19e-be15-41cc-9c8a-a97c8de85309</commands>
       <commands>Catalog.ВариантыОтчетов.StandardCommand.OpenList</commands>
       <commands>Catalog.ДополнительныеОтчетыИОбработки.StandardCommand.OpenList</commands>
       <commands>Catalog.РассылкиОтчетов.StandardCommand.OpenList</commands>
@@ -470,13 +216,9 @@
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>0:4883cb3d-4ab3-4e0e-bddb-ae8852547a3c</commands>
-      <commands>0:75ffd0b9-79be-4600-a310-591fddb6d63e</commands>
       <commands>DataProcessor.АктивныеПользователи.Command.АктивныеПользователи</commands>
       <commands>Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList</commands>
       <commands>Catalog.ГруппыПользователей.StandardCommand.OpenList</commands>
-      <commands>0:f31f3dab-5796-47ac-a54d-3081f8cad817</commands>
-      <commands>0:3dec1ae7-90bb-45ab-aa04-48cfbc14742e</commands>
       <commands>DataProcessor.УдалениеПомеченныхОбъектов.Command.УдалениеПомеченныхОбъектов</commands>
       <commands>DataProcessor.ПоискИУдалениеДублей.Command.ПоискИУдалениеДублей</commands>
       <commands>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</commands>
@@ -490,10 +232,8 @@
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
-      <commands>0:d0106f3a-8490-4277-a278-75c318ec252c</commands>
       <commands>Catalog.ВнешниеПользователи.StandardCommand.OpenList</commands>
       <commands>DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации</commands>
-      <commands>0:d917c19e-be15-41cc-9c8a-a97c8de85309</commands>
       <commands>Catalog.ВариантыОтчетов.StandardCommand.OpenList</commands>
       <commands>Catalog.ДополнительныеОтчетыИОбработки.StandardCommand.OpenList</commands>
       <commands>Catalog.РассылкиОтчетов.StandardCommand.OpenList</commands>
@@ -543,8 +283,6 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>0:4883cb3d-4ab3-4e0e-bddb-ae8852547a3c</commands>
-      <commands>0:75ffd0b9-79be-4600-a310-591fddb6d63e</commands>
       <commands>DataProcessor.АктивныеПользователи.Command.АктивныеПользователи</commands>
       <commands>Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList</commands>
       <commands>Catalog.ГруппыПользователей.StandardCommand.OpenList</commands>
@@ -552,8 +290,6 @@
       <commands>0:c411827b-fa66-4a84-9560-12ffff43ba8b</commands>
       <commands>0:2a5a6e14-d41b-4218-8cf5-c59d5c683350</commands>
       <commands>0:22577964-6af5-44af-a2f2-6049dc67c1ce</commands>
-      <commands>0:f31f3dab-5796-47ac-a54d-3081f8cad817</commands>
-      <commands>0:3dec1ae7-90bb-45ab-aa04-48cfbc14742e</commands>
       <commands>DataProcessor.УдалениеПомеченныхОбъектов.Command.УдалениеПомеченныхОбъектов</commands>
       <commands>DataProcessor.ПоискИУдалениеДублей.Command.ПоискИУдалениеДублей</commands>
       <commands>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</commands>

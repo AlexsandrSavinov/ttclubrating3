@@ -2114,19 +2114,19 @@
     <navigationPanel/>
     <commandBar>
       <cmiFragmentRecord>
-        <command>0:4ef362ee-0350-49fe-b40a-3ffa1576aa36</command>
+        <command>0</command>
         <group>FormCommandBarImportant</group>
         <index>0</index>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:4769b1a9-c88a-4d5e-9520-ea46da1ac861</command>
+        <command>0</command>
         <group>FormCommandBarImportant</group>
         <index>2</index>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:1ea304f6-8e8f-4479-aceb-086cf9709ce7</command>
+        <command>0</command>
         <group>FormCommandBarImportant</group>
         <index>1</index>
         <userVisible/>

@@ -12046,7 +12046,6 @@
     <items xsi:type="form:Button">
       <name>ФормаКомандаРасчитатьРейтинг</name>
       <id>177</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -12068,7 +12067,6 @@
       </extendedTooltip>
       <commandName>Form.Command.КомандаРассчитатьРейтинг</commandName>
       <representation>PictureAndText</representation>
-      <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -12081,7 +12079,6 @@
         <key>ru</key>
         <value>Отменить расчет</value>
       </title>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -12216,6 +12213,7 @@
       <common>true</common>
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
     <event>ChoiceProcessing</event>
@@ -12233,6 +12231,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <excludedCommands>Post</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -13031,7 +13030,17 @@
         <index>3</index>
       </cmiFragmentRecord>
     </navigationPanel>
-    <commandBar/>
+    <commandBar>
+      <cmiFragmentRecord>
+        <command>Report.СписокБыстрогоРасчета.Command.ОткрытьСписокПоБыстромуРасчету</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Объект.Ref</segments>
+        </commandParameter>
+        <group>FormCommandBarImportant</group>
+        <index>0</index>
+        <userVisible/>
+      </cmiFragmentRecord>
+    </commandBar>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
     <handlers>

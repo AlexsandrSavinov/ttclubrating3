@@ -120,26 +120,28 @@
   <styleItems>StyleItem.ЗеленыйПобеда</styleItems>
   <styleItems>StyleItem.КрасныйПоражение</styleItems>
   <styles>Style.ОсновнойСтиль</styles>
+  <commonPictures>CommonPicture.GoogleMaps</commonPictures>
+  <commonPictures>CommonPicture.ВидыОпераций</commonPictures>
+  <commonPictures>CommonPicture.Skype</commonPictures>
+  <commonPictures>CommonPicture.БыстрыеНастройкиОтчета</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступ</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступДобавить</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступСФлажком</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступУдалить</commonPictures>
+  <commonPictures>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</commonPictures>
+  <commonPictures>CommonPicture.ВводимыеСимволыВидны</commonPictures>
+  <commonPictures>CommonPicture.ВводимыеСимволыСкрыты</commonPictures>
+  <commonPictures>CommonPicture.ВертикальноеПоложениеВерх</commonPictures>
+  <commonPictures>CommonPicture.ВертикальноеПоложениеНиз</commonPictures>
+  <commonPictures>CommonPicture.ВертикальноеПоложениеЦентр</commonPictures>
+  <commonPictures>CommonPicture.ВидСравнения</commonPictures>
+  <commonPictures>CommonPicture.ВидыКонтактнойИнформации</commonPictures>
+  <commonPictures>CommonPicture.ВидыСравнения</commonPictures>
   <commonPictures>CommonPicture.ВидыФайлов</commonPictures>
+  <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.ВосклицательныйЗнакКрасный</commonPictures>
   <commonPictures>CommonPicture.ВосклицательныйЗнакСерый</commonPictures>
-  <commonPictures>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</commonPictures>
-  <commonPictures>CommonPicture.ВидыСравнения</commonPictures>
-  <commonPictures>CommonPicture.ВертикальноеПоложениеВерх</commonPictures>
-  <commonPictures>CommonPicture.ВидСравнения</commonPictures>
-  <commonPictures>CommonPicture.Skype</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступ</commonPictures>
-  <commonPictures>CommonPicture.ВертикальноеПоложениеЦентр</commonPictures>
-  <commonPictures>CommonPicture.ВводимыеСимволыСкрыты</commonPictures>
-  <commonPictures>CommonPicture.Вопрос32</commonPictures>
-  <commonPictures>CommonPicture.ВидыКонтактнойИнформации</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступСФлажком</commonPictures>
-  <commonPictures>CommonPicture.ВводимыеСимволыВидны</commonPictures>
-  <commonPictures>CommonPicture.ВидыОпераций</commonPictures>
-  <commonPictures>CommonPicture.ВертикальноеПоложениеНиз</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступУдалить</commonPictures>
-  <commonPictures>CommonPicture.БыстрыеНастройкиОтчета</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступДобавить</commonPictures>
+  <commonPictures>CommonPicture.ВсеРежимыСоревнований</commonPictures>
   <commonPictures>CommonPicture.ВставитьГруппировкуВыше</commonPictures>
   <commonPictures>CommonPicture.ВставитьГруппировкуНиже</commonPictures>
   <commonPictures>CommonPicture.ВставитьИзБуфераОбмена</commonPictures>
@@ -160,27 +162,42 @@
   <commonPictures>CommonPicture.ГраницаСнизу</commonPictures>
   <commonPictures>CommonPicture.ГраницаСправа</commonPictures>
   <commonPictures>CommonPicture.Группировка</commonPictures>
+  <commonPictures>CommonPicture.ДанныеСоревнования</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
-  <commonPictures>CommonPicture.GoogleMaps</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.ДобавитьРодительский</commonPictures>
   <commonPictures>CommonPicture.ДобавитьЭлементНастроек</commonPictures>
   <commonPictures>CommonPicture.ЗавершитьРаботу</commonPictures>
+  <commonPictures>CommonPicture.ЗагрузкаДляРазрядов</commonPictures>
   <commonPictures>CommonPicture.ЗакончитьРедактированиеФайла</commonPictures>
   <commonPictures>CommonPicture.Закрепить</commonPictures>
   <commonPictures>CommonPicture.ЗанятьФайл</commonPictures>
+  <commonPictures>CommonPicture.ЗаписатьДанные</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <commonPictures>CommonPicture.ЗаставкаВнешнейОперации</commonPictures>
+  <commonPictures>CommonPicture.ЗаставкаОбновленияКонфигурации</commonPictures>
   <commonPictures>CommonPicture.Зашифрован</commonPictures>
+  <commonPictures>CommonPicture.ЗеленыйШар</commonPictures>
+  <commonPictures>CommonPicture.Змейка</commonPictures>
   <commonPictures>CommonPicture.ЗнакСтоп</commonPictures>
   <commonPictures>CommonPicture.ЗначокЗаставкиВнешнейОперации</commonPictures>
+  <commonPictures>CommonPicture.ЗначокЗаставкиОбновленияКонфигурации</commonPictures>
   <commonPictures>CommonPicture.ЗначокЩита</commonPictures>
   <commonPictures>CommonPicture.ИерархическийСписок</commonPictures>
+  <commonPictures>CommonPicture.ИзИсторииКоманд</commonPictures>
   <commonPictures>CommonPicture.ИзменитьШрифт</commonPictures>
+  <commonPictures>CommonPicture.ИконкаPNG</commonPictures>
+  <commonPictures>CommonPicture.ИконкаVK</commonPictures>
+  <commonPictures>CommonPicture.ИконкаТелеграмм</commonPictures>
   <commonPictures>CommonPicture.Информация</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
   <commonPictures>CommonPicture.ИсторияВерсий</commonPictures>
   <commonPictures>CommonPicture.ИсторияИзменений</commonPictures>
+  <commonPictures>CommonPicture.КартинкаВыборВГрупповомЭтапе</commonPictures>
+  <commonPictures>CommonPicture.КартинкиСпискаСоревнования</commonPictures>
+  <commonPictures>CommonPicture.КарточкаУчастника</commonPictures>
+  <commonPictures>CommonPicture.кИнформационныеДанные</commonPictures>
   <commonPictures>CommonPicture.Количество</commonPictures>
   <commonPictures>CommonPicture.КоллекцияВариантыВажности</commonPictures>
   <commonPictures>CommonPicture.КоллекцияВидыАктивныхПользователей</commonPictures>
@@ -190,20 +207,29 @@
   <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
   <commonPictures>CommonPicture.КоллекцияПиктограммЭлементов</commonPictures>
   <commonPictures>CommonPicture.КоллекцияСкрепка</commonPictures>
+  <commonPictures>CommonPicture.КомандныеСоревнования</commonPictures>
   <commonPictures>CommonPicture.Комментарий</commonPictures>
   <commonPictures>CommonPicture.КонтактнаяИнформация</commonPictures>
   <commonPictures>CommonPicture.КонтактнаяИнформацияНеактуально</commonPictures>
   <commonPictures>CommonPicture.КонтактнаяИнформацияПерейтиПоСсылке</commonPictures>
+  <commonPictures>CommonPicture.КрасныйШар</commonPictures>
+  <commonPictures>CommonPicture.кСоревнования</commonPictures>
   <commonPictures>CommonPicture.КурсивноеНачертание</commonPictures>
+  <commonPictures>CommonPicture.ЛевоВсе</commonPictures>
+  <commonPictures>CommonPicture.ЛичныеСоревнования</commonPictures>
   <commonPictures>CommonPicture.Максимум</commonPictures>
   <commonPictures>CommonPicture.МенюДополнительныеФункции</commonPictures>
   <commonPictures>CommonPicture.Минимум</commonPictures>
+  <commonPictures>CommonPicture.МонеткаДляЖеребьевкиБольшая</commonPictures>
+  <commonPictures>CommonPicture.МонеткаМаленькая</commonPictures>
   <commonPictures>CommonPicture.Напоминание</commonPictures>
   <commonPictures>CommonPicture.НезавершившаясяПроверка</commonPictures>
   <commonPictures>CommonPicture.НетГраницы</commonPictures>
   <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
+  <commonPictures>CommonPicture.Обновление</commonPictures>
   <commonPictures>CommonPicture.ОбъединитьЯчейки</commonPictures>
   <commonPictures>CommonPicture.ОбычныйДоступСФлажком</commonPictures>
+  <commonPictures>CommonPicture.ОнЛайн</commonPictures>
   <commonPictures>CommonPicture.ОпубликоватьФайл</commonPictures>
   <commonPictures>CommonPicture.Органайзер</commonPictures>
   <commonPictures>CommonPicture.ОсвободитьФайл</commonPictures>
@@ -216,11 +242,14 @@
   <commonPictures>CommonPicture.ОтчетКроссТаблица</commonPictures>
   <commonPictures>CommonPicture.ОтчетТаблица</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.ОтчетыРейтинга</commonPictures>
   <commonPictures>CommonPicture.Оформление</commonPictures>
+  <commonPictures>CommonPicture.Ошибка</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
   <commonPictures>CommonPicture.Папка</commonPictures>
   <commonPictures>CommonPicture.ПапкаОблачногоСервиса</commonPictures>
   <commonPictures>CommonPicture.Папки</commonPictures>
+  <commonPictures>CommonPicture.Пары</commonPictures>
   <commonPictures>CommonPicture.ПерейтиВПолноэкранныйРежим</commonPictures>
   <commonPictures>CommonPicture.ПереместитьВлевоВверх</commonPictures>
   <commonPictures>CommonPicture.ПереместитьВлевоВсе</commonPictures>
@@ -229,12 +258,15 @@
   <commonPictures>CommonPicture.ПереместитьГруппировкуНиже</commonPictures>
   <commonPictures>CommonPicture.ПереместитьКолонкуВлево</commonPictures>
   <commonPictures>CommonPicture.ПереместитьКолонкуВправо</commonPictures>
+  <commonPictures>CommonPicture.ПереносВстреч</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыДоступаКНастройкамОтчета</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыНастроекОтчета</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыТиповДанных</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <commonPictures>CommonPicture.ПлюсБонус</commonPictures>
   <commonPictures>CommonPicture.Подменю</commonPictures>
   <commonPictures>CommonPicture.ПодменюСервис</commonPictures>
+  <commonPictures>CommonPicture.Подобрать</commonPictures>
   <commonPictures>CommonPicture.ПодписанЗашифрованЗаголовок</commonPictures>
   <commonPictures>CommonPicture.ПодписанЗашифрованСостояния</commonPictures>
   <commonPictures>CommonPicture.Подсистема</commonPictures>
@@ -246,9 +278,11 @@
   <commonPictures>CommonPicture.ПолужирноеНачертание</commonPictures>
   <commonPictures>CommonPicture.ПользовательБезФотографии</commonPictures>
   <commonPictures>CommonPicture.ПоляИСортировки</commonPictures>
+  <commonPictures>CommonPicture.ПоменятьМестами</commonPictures>
   <commonPictures>CommonPicture.Пометка</commonPictures>
+  <commonPictures>CommonPicture.ПравоВсе</commonPictures>
   <commonPictures>CommonPicture.ПредопределенныйЭлемент</commonPictures>
-  <commonPictures>CommonPicture.ВсеРежимыСоревнований</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
   <commonPictures>CommonPicture.ПриложитьФайл</commonPictures>
   <commonPictures>CommonPicture.ПримечаниеЖурналаРегистрации</commonPictures>
@@ -259,11 +293,14 @@
   <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование48</commonPictures>
   <commonPictures>CommonPicture.РазорватьСоединение</commonPictures>
+  <commonPictures>CommonPicture.РассчитанПоРежиму</commonPictures>
   <commonPictures>CommonPicture.Рассчитать</commonPictures>
+  <commonPictures>CommonPicture.РассчитатьРейтинг</commonPictures>
   <commonPictures>CommonPicture.РассылкаОтчетов</commonPictures>
   <commonPictures>CommonPicture.РасширениеКонфигурацииИзГлавногоУзла</commonPictures>
   <commonPictures>CommonPicture.РедактироватьАдресСайта</commonPictures>
   <commonPictures>CommonPicture.РедактироватьФайл</commonPictures>
+  <commonPictures>CommonPicture.РезультатЖеребьевки</commonPictures>
   <commonPictures>CommonPicture.СдвинутьВверх</commonPictures>
   <commonPictures>CommonPicture.СдвинутьВниз</commonPictures>
   <commonPictures>CommonPicture.Сканирование</commonPictures>
@@ -273,6 +310,7 @@
   <commonPictures>CommonPicture.СкрытаяНастройкаОтчета</commonPictures>
   <commonPictures>CommonPicture.СортироватьСтрокиПоВозрастанию</commonPictures>
   <commonPictures>CommonPicture.СортироватьСтрокиПоУбыванию</commonPictures>
+  <commonPictures>CommonPicture.СортировкаПоГруппеИРейтингу</commonPictures>
   <commonPictures>CommonPicture.СостояниеПользователя01</commonPictures>
   <commonPictures>CommonPicture.СостояниеПользователя02</commonPictures>
   <commonPictures>CommonPicture.СостояниеПользователя03</commonPictures>
@@ -298,6 +336,7 @@
   <commonPictures>CommonPicture.СправкаПереходВниз</commonPictures>
   <commonPictures>CommonPicture.Среднее</commonPictures>
   <commonPictures>CommonPicture.СтатусыДокумента</commonPictures>
+  <commonPictures>CommonPicture.СтолПоНастольномуТеннису</commonPictures>
   <commonPictures>CommonPicture.СтрелкаВверх</commonPictures>
   <commonPictures>CommonPicture.СтрелкаВлево</commonPictures>
   <commonPictures>CommonPicture.СтрелкаВниз</commonPictures>
@@ -307,6 +346,7 @@
   <commonPictures>CommonPicture.СтрелкаВправоЗеленая</commonPictures>
   <commonPictures>CommonPicture.Структура</commonPictures>
   <commonPictures>CommonPicture.Сумма</commonPictures>
+  <commonPictures>CommonPicture.Техническое</commonPictures>
   <commonPictures>CommonPicture.ТипБулево</commonPictures>
   <commonPictures>CommonPicture.ТипГиперссылка</commonPictures>
   <commonPictures>CommonPicture.ТипГруппа</commonPictures>
@@ -333,6 +373,8 @@
   <commonPictures>CommonPicture.УменьшитьШрифт</commonPictures>
   <commonPictures>CommonPicture.Успешно</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
+  <commonPictures>CommonPicture.Участники</commonPictures>
+  <commonPictures>CommonPicture.УчестьИгры</commonPictures>
   <commonPictures>CommonPicture.ФорматExcel</commonPictures>
   <commonPictures>CommonPicture.ФорматExcel2007</commonPictures>
   <commonPictures>CommonPicture.ФорматHTML</commonPictures>
@@ -349,53 +391,9 @@
   <commonPictures>CommonPicture.ЦветФона</commonPictures>
   <commonPictures>CommonPicture.ШиринаКолонки</commonPictures>
   <commonPictures>CommonPicture.Шрифт</commonPictures>
+  <commonPictures>CommonPicture.ЭкспортСпискаБыстрый</commonPictures>
   <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
-  <commonPictures>CommonPicture.ДанныеСоревнования</commonPictures>
-  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
-  <commonPictures>CommonPicture.ЗагрузкаДляРазрядов</commonPictures>
-  <commonPictures>CommonPicture.ЗаписатьДанные</commonPictures>
-  <commonPictures>CommonPicture.ЗаставкаОбновленияКонфигурации</commonPictures>
-  <commonPictures>CommonPicture.ЗеленыйШар</commonPictures>
-  <commonPictures>CommonPicture.Змейка</commonPictures>
-  <commonPictures>CommonPicture.ЗначокЗаставкиОбновленияКонфигурации</commonPictures>
-  <commonPictures>CommonPicture.ИзИсторииКоманд</commonPictures>
-  <commonPictures>CommonPicture.ИконкаExcel</commonPictures>
-  <commonPictures>CommonPicture.ИконкаPDF</commonPictures>
-  <commonPictures>CommonPicture.ИконкаPNG</commonPictures>
-  <commonPictures>CommonPicture.ИконкаVK</commonPictures>
-  <commonPictures>CommonPicture.ИконкаТелеграмм</commonPictures>
-  <commonPictures>CommonPicture.КартинкаВыборВГрупповомЭтапе</commonPictures>
-  <commonPictures>CommonPicture.КартинкиСпискаСоревнования</commonPictures>
-  <commonPictures>CommonPicture.КарточкаУчастника</commonPictures>
-  <commonPictures>CommonPicture.кИнформационныеДанные</commonPictures>
-  <commonPictures>CommonPicture.КомандныеСоревнования</commonPictures>
-  <commonPictures>CommonPicture.КрасныйШар</commonPictures>
-  <commonPictures>CommonPicture.кСоревнования</commonPictures>
-  <commonPictures>CommonPicture.ЛевоВсе</commonPictures>
-  <commonPictures>CommonPicture.ЛичныеСоревнования</commonPictures>
-  <commonPictures>CommonPicture.МонеткаДляЖеребьевкиБольшая</commonPictures>
-  <commonPictures>CommonPicture.МонеткаМаленькая</commonPictures>
-  <commonPictures>CommonPicture.Обновление</commonPictures>
-  <commonPictures>CommonPicture.ОнЛайн</commonPictures>
-  <commonPictures>CommonPicture.ОтчетыРейтинга</commonPictures>
-  <commonPictures>CommonPicture.Ошибка</commonPictures>
-  <commonPictures>CommonPicture.Пары</commonPictures>
-  <commonPictures>CommonPicture.ПереносВстреч</commonPictures>
-  <commonPictures>CommonPicture.ПлюсБонус</commonPictures>
-  <commonPictures>CommonPicture.Подобрать</commonPictures>
-  <commonPictures>CommonPicture.ПоменятьМестами</commonPictures>
-  <commonPictures>CommonPicture.ПравоВсе</commonPictures>
-  <commonPictures>CommonPicture.Предупреждение</commonPictures>
-  <commonPictures>CommonPicture.РассчитанПоРежиму</commonPictures>
-  <commonPictures>CommonPicture.РассчитатьРейтинг</commonPictures>
-  <commonPictures>CommonPicture.РезультатЖеребьевки</commonPictures>
-  <commonPictures>CommonPicture.СортировкаПоГруппеИРейтингу</commonPictures>
-  <commonPictures>CommonPicture.СтолПоНастольномуТеннису</commonPictures>
-  <commonPictures>CommonPicture.Техническое</commonPictures>
-  <commonPictures>CommonPicture.Участники</commonPictures>
-  <commonPictures>CommonPicture.УчестьИгры</commonPictures>
-  <commonPictures>CommonPicture.ЭкспортСпискаБыстрый</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
@@ -528,7 +526,6 @@
   <commonModules>CommonModule.НастройкаПорядкаЭлементов</commonModules>
   <commonModules>CommonModule.НастройкаПорядкаЭлементовСлужебный</commonModules>
   <commonModules>CommonModule.НастройкиПрограммыПереопределяемый</commonModules>
-  <commonModules>CommonModule.ОбновлениеИБ</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазы</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБСП</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
@@ -681,8 +678,8 @@
   <webServices>WebService.InterfaceVersion</webServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПередУдалениемПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПриЗаписиПрисоединенногоФайла</eventSubscriptions>
@@ -715,6 +712,7 @@
   <eventSubscriptions>EventSubscription.СброситьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗапускДополнительныхОбработок</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИзвлечениеТекста</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольАктивностиПользователей</scheduledJobs>
@@ -765,7 +763,6 @@
   <definedTypes>DefinedType.МестоХраненияФункциональныхОпций</definedTypes>
   <definedTypes>DefinedType.ОбъектСДополнительнымиКомандами</definedTypes>
   <definedTypes>DefinedType.ОбъектСНастраиваемымПорядком</definedTypes>
-  <definedTypes>DefinedType.Организация</definedTypes>
   <definedTypes>DefinedType.Подразделение</definedTypes>
   <definedTypes>DefinedType.ПолучательРассылки</definedTypes>
   <definedTypes>DefinedType.Пользователь</definedTypes>
@@ -802,11 +799,10 @@
   <commonCommands>CommonCommand.ОтправитьMXL_VK</commonCommands>
   <commonCommands>CommonCommand.ОтправитьMXL_Telegram</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
-  <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.ОтчетыПоРейтингу</commandGroups>
   <commandGroups>CommandGroup.ОтчетыУчастников</commandGroups>
-  <commandGroups>CommandGroup.ОперацииСБазой</commandGroups>
   <commandGroups>CommandGroup.Сервис</commandGroups>
   <commandGroups>CommandGroup.КомандаВыхода</commandGroups>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
@@ -820,7 +816,6 @@
   <constants>Constant.ВыводКолонкиКлуба</constants>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
-  <constants>Constant.ЗаголовокОкна</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</constants>
   <constants>Constant.ИдентификаторИнформационнойБазы</constants>
@@ -858,7 +853,6 @@
   <constants>Constant.ПараметрыХраненияФайловВИБ</constants>
   <constants>Constant.ПриоритетОбновленияВОбластяхДанных</constants>
   <constants>Constant.ПроверятьИспользованиеУдаляемыхОбъектов</constants>
-  <constants>Constant.ПроверятьОбновлениеПрограммы</constants>
   <constants>Constant.ПутьКwkhtmltoimage_exe</constants>
   <constants>Constant.ПутьКТомуБезУчетаРегиональныхНастроек</constants>
   <constants>Constant.РежимОчисткиФайлов</constants>
@@ -933,9 +927,9 @@
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета1</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
-  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВидыРейтинга</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.Города</catalogs>
@@ -952,6 +946,7 @@
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
+  <catalogs>Catalog.ПроведениеСоревнованияПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ПроксиСервера</catalogs>
   <catalogs>Catalog.РассылкиОтчетов</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
@@ -963,7 +958,7 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
-  <documents>Document.ВводНачальногоРейтинга</documents>
+  <documents>Document.КорректировкаРейтинга</documents>
   <documents>Document.ПрисвоитьРазряд</documents>
   <documents>Document.ПроведениеСоревнования</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
