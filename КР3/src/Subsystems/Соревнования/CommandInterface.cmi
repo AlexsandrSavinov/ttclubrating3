@@ -8,7 +8,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ВводНачальногоРейтинга.StandardCommand.OpenList</command>
+      <command>Document.КорректировкаРейтинга.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -40,7 +40,7 @@
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ПроведениеСоревнования.StandardCommand.OpenList</commands>
-      <commands>Document.ВводНачальногоРейтинга.StandardCommand.OpenList</commands>
+      <commands>Document.КорректировкаРейтинга.StandardCommand.OpenList</commands>
       <commands>Document.ПрисвоитьРазряд.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
@@ -53,7 +53,7 @@
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ПроведениеСоревнования.StandardCommand.OpenList</commands>
-      <commands>Document.ВводНачальногоРейтинга.StandardCommand.OpenList</commands>
+      <commands>Document.КорректировкаРейтинга.StandardCommand.OpenList</commands>
       <commands>Document.ПрисвоитьРазряд.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ТекущиеВстречи.Command.ТекущиеВстречи</commands>
     </orderFragments>

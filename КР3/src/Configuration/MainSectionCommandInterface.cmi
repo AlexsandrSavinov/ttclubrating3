@@ -8,7 +8,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ВводНачальногоРейтинга.StandardCommand.OpenList</command>
+      <command>Document.КорректировкаРейтинга.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -21,6 +21,12 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>InformationRegister.ТекущиеВстречи.Command.ТекущиеВстречи</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.НапоминанияПользователя.Command.МоиНапоминания</command>
       <visible>
         <common>true</common>
       </visible>
@@ -108,6 +114,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>InformationRegister.КоэффициентыРейтингаПоСчетуВстречи.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>InformationRegister.БонусныеОчки.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -182,24 +194,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.ПроверкаОбновления.Command.Обновление</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.ПроверкаОбновления.Command.РезервнаяКопия</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.ПроверкаОбновления.Command.ВосстановитьИБ</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>CommonForm.НастройкиПрограммы.StandardCommand.Open</command>
       <visible>
         <common>true</common>
@@ -207,12 +201,6 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>DataProcessor.ЗагрузкаУчастников.StandardCommand.Open</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:51511945-19c6-4323-b274-3333b8d1d70b</command>
       <visible>
         <common>true</common>
       </visible>
@@ -234,9 +222,13 @@
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ПроведениеСоревнования.StandardCommand.OpenList</commands>
-      <commands>Document.ВводНачальногоРейтинга.StandardCommand.OpenList</commands>
+      <commands>Document.КорректировкаРейтинга.StandardCommand.OpenList</commands>
       <commands>Document.ПрисвоитьРазряд.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ТекущиеВстречи.Command.ТекущиеВстречи</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>InformationRegister.НапоминанияПользователя.Command.МоиНапоминания</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Справочники</group>
@@ -257,9 +249,9 @@
       <commands>InformationRegister.ПериодДействияРазрядов.StandardCommand.OpenList</commands>
       <commands>InformationRegister.НастройкиСбораГрупп.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ФормулыРасчетаРейтинга.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.КоэффициентыРейтингаПоСчетуВстречи.StandardCommand.OpenList</commands>
       <commands>InformationRegister.БонусныеОчки.StandardCommand.OpenList</commands>
       <commands>Catalog.ДополнительныеОтчетыИОбработки.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.КоэффициентыРейтингаПоСчетуВстречи.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>ActionsPanelCreate</group>
@@ -282,16 +274,9 @@
       <commands>Report.ИзменениеПозицийУчастниковПоРейтингу.StandardCommand.Open</commands>
     </placementFragments>
     <placementFragments>
-      <group>CommandGroup.ОперацииСБазой</group>
-      <commands>DataProcessor.ПроверкаОбновления.Command.Обновление</commands>
-      <commands>DataProcessor.ПроверкаОбновления.Command.РезервнаяКопия</commands>
-      <commands>DataProcessor.ПроверкаОбновления.Command.ВосстановитьИБ</commands>
-    </placementFragments>
-    <placementFragments>
       <group>CommandGroup.Сервис</group>
       <commands>CommonForm.НастройкиПрограммы.StandardCommand.Open</commands>
       <commands>DataProcessor.ЗагрузкаУчастников.StandardCommand.Open</commands>
-      <commands>0:51511945-19c6-4323-b274-3333b8d1d70b</commands>
       <commands>DataProcessor.СкрытьУчастниковИзОтчетов.StandardCommand.Open</commands>
     </placementFragments>
     <placementFragments>
@@ -303,7 +288,7 @@
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ПроведениеСоревнования.StandardCommand.OpenList</commands>
-      <commands>Document.ВводНачальногоРейтинга.StandardCommand.OpenList</commands>
+      <commands>Document.КорректировкаРейтинга.StandardCommand.OpenList</commands>
       <commands>Document.ПрисвоитьРазряд.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ТекущиеВстречи.Command.ТекущиеВстречи</commands>
     </orderFragments>
@@ -346,16 +331,9 @@
       <commands>Report.ИзменениеПозицийУчастниковПоРейтингу.StandardCommand.Open</commands>
     </orderFragments>
     <orderFragments>
-      <group>CommandGroup.ОперацииСБазой</group>
-      <commands>DataProcessor.ПроверкаОбновления.Command.Обновление</commands>
-      <commands>DataProcessor.ПроверкаОбновления.Command.РезервнаяКопия</commands>
-      <commands>DataProcessor.ПроверкаОбновления.Command.ВосстановитьИБ</commands>
-    </orderFragments>
-    <orderFragments>
       <group>CommandGroup.Сервис</group>
       <commands>CommonForm.НастройкиПрограммы.StandardCommand.Open</commands>
       <commands>DataProcessor.ЗагрузкаУчастников.StandardCommand.Open</commands>
-      <commands>0:51511945-19c6-4323-b274-3333b8d1d70b</commands>
       <commands>DataProcessor.СкрытьУчастниковИзОтчетов.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>

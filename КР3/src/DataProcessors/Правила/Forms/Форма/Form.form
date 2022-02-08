@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:Button">
+    <name>ПравилаНаСайтеФНТР</name>
+    <id>94</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ПравилаНаСайтеФНТРРасширеннаяПодсказка</name>
+      <id>95</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>Hyperlink</type>
+    <commandName>Form.Command.ПравилаНаСайтеФНТР</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <font xsi:type="core:FontRef">
+      <font>Style.ВажнаяНадписьШрифт</font>
+    </font>
+    <representationInContextMenu>Auto</representationInContextMenu>
+  </items>
   <items xsi:type="form:Decoration">
     <name>ДекорацияШапка</name>
     <id>1</id>
@@ -41,13 +75,6 @@
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <horizontalStretch>true</horizontalStretch>
-    <textColor xsi:type="core:ColorRef">
-      <color>Style.FieldSelectionBackColor</color>
-    </textColor>
-    <font xsi:type="core:FontRef">
-      <font>System.DefaultGUIFont</font>
-      <height>10.0</height>
-    </font>
     <extInfo xsi:type="form:LabelDecorationExtInfo">
       <handlers>
         <event>Click</event>
@@ -1355,6 +1382,23 @@
       <itemValueType/>
     </extInfo>
   </attributes>
+  <formCommands>
+    <name>ПравилаНаСайтеФНТР</name>
+    <title>
+      <key>ru</key>
+      <value>Правила на сайте ФНТР</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПравилаНаСайтеФНТР</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

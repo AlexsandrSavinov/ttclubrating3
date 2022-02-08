@@ -85,15 +85,6 @@
               <value>1</value>
             </value>
           </choiceList>
-          <choiceList>
-            <presentation>
-              <key>ru</key>
-              <value>Парные</value>
-            </presentation>
-            <value xsi:type="core:NumberValue">
-              <value>3</value>
-            </value>
-          </choiceList>
           <font xsi:type="core:FontRef">
             <font>Style.NormalTextFont</font>
             <bold>true</bold>
@@ -1155,10 +1146,6 @@
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
                 <extInfo xsi:type="form:InputFieldExtInfo">
-                  <handlers>
-                    <event>StartChoice</event>
-                    <name>ХодСоревнованияКолПартийНачалоВыбора</name>
-                  </handlers>
                   <width>3</width>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1526,6 +1513,36 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Command.КомандаУдалитьИгры</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ХодСоревнованияКомандаУдалитьЖеребьевкуИИгры</name>
+                <id>882</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ХодСоревнованияКомандаУдалитьЖеребьевкуИИгрыРасширеннаяПодсказка</name>
+                  <id>883</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.КомандаУдалитьЖеребьевкуИИгры</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -12046,7 +12063,6 @@
     <items xsi:type="form:Button">
       <name>ФормаКомандаРасчитатьРейтинг</name>
       <id>177</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -12068,7 +12084,6 @@
       </extendedTooltip>
       <commandName>Form.Command.КомандаРассчитатьРейтинг</commandName>
       <representation>PictureAndText</representation>
-      <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -12081,7 +12096,6 @@
         <key>ru</key>
         <value>Отменить расчет</value>
       </title>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -12216,6 +12230,7 @@
       <common>true</common>
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
     <event>ChoiceProcessing</event>
@@ -12233,6 +12248,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <excludedCommands>Post</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -12994,6 +13010,23 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>КомандаУдалитьЖеребьевкуИИгры</name>
+    <title>
+      <key>ru</key>
+      <value>Удалить жеребьевку и игры (по всем турам)</value>
+    </title>
+    <id>23</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаУдалитьЖеребьевкуИИгры</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
@@ -13031,7 +13064,17 @@
         <index>3</index>
       </cmiFragmentRecord>
     </navigationPanel>
-    <commandBar/>
+    <commandBar>
+      <cmiFragmentRecord>
+        <command>Report.СписокБыстрогоРасчета.Command.ОткрытьСписокПоБыстромуРасчету</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Объект.Ref</segments>
+        </commandParameter>
+        <group>FormCommandBarImportant</group>
+        <index>0</index>
+        <userVisible/>
+      </cmiFragmentRecord>
+    </commandBar>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
     <handlers>

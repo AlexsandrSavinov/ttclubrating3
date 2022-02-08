@@ -394,6 +394,7 @@
           <horizontalStretch>true</horizontalStretch>
           <font xsi:type="core:FontRef">
             <font>System.DefaultGUIFont</font>
+            <height>10.0</height>
             <bold>true</bold>
             <italic>false</italic>
             <underline>false</underline>
@@ -2420,7 +2421,7 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>DocumentRef.ВводНачальногоРейтинга</types>
+      <types>DocumentRef.КорректировкаРейтинга</types>
     </valueType>
     <view>
       <common>true</common>

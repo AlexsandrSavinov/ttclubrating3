@@ -13,6 +13,6 @@
     <value>Сохранить в картинку png</value>
   </toolTip>
   <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.ИконкаPNG</picture>
+    <picture>CommonPicture.ТипКартинка</picture>
   </picture>
 </mdclass:CommonCommand>

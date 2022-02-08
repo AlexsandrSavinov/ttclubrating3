@@ -2373,7 +2373,7 @@
     <navigationPanel/>
     <commandBar>
       <cmiFragmentRecord>
-        <command>0:56b570b1-93b0-468a-9672-9c71113753f3</command>
+        <command>0</command>
         <userVisible/>
       </cmiFragmentRecord>
     </commandBar>

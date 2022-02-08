@@ -9,6 +9,7 @@
     <value>Владелец файлов</value>
   </synonym>
   <type>
+    <types>DocumentRef.ПроведениеСоревнования</types>
     <types>CatalogRef.ПапкиФайлов</types>
   </type>
 </mdclass:DefinedType>
