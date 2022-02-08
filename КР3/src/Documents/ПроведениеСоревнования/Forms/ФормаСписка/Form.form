@@ -902,9 +902,6 @@
     <commandBar>
       <cmiFragmentRecord>
         <command>Report.СписокБыстрогоРасчета.Command.ОткрытьСписокПоБыстромуРасчету</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Items.Список.CurrentData</segments>
-        </commandParameter>
         <group>FormCommandBarImportant</group>
         <index>0</index>
         <userVisible/>

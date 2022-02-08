@@ -562,7 +562,7 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>МестаИзТура</segments>
               </dataPath>
-              <titleLocation>None</titleLocation>
+              <titleLocation>Right</titleLocation>
               <toolTip>
                 <key>ru</key>
                 <value>Места тура №</value>
@@ -3859,7 +3859,7 @@
     <name>МестаИзТура</name>
     <title>
       <key>ru</key>
-      <value>Места тура №</value>
+      <value>места из тура</value>
     </title>
     <id>19</id>
     <valueType>

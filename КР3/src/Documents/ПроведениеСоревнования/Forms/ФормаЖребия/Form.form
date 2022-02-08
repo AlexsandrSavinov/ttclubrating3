@@ -48,8 +48,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <font xsi:type="core:FontRef">
-          <font>System.DefaultGUIFont</font>
-          <height>9.0</height>
+          <font>Style.NormalTextFont</font>
           <bold>true</bold>
           <italic>false</italic>
           <underline>false</underline>
@@ -178,7 +177,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <font xsi:type="core:FontRef">
-          <font>System.DefaultGUIFont</font>
+          <font>Style.NormalTextFont</font>
           <bold>true</bold>
           <italic>false</italic>
           <underline>false</underline>
@@ -288,7 +287,6 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <representation>StrongSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <slaveItemsWidth>Equal</slaveItemsWidth>
