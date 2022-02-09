@@ -108,7 +108,6 @@
 	</columns>
 	<rowsItem>
 		<index>0</index>
-		<indexTo>1</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -204,7 +203,6 @@
 				<c>
 					<f>17</f>
 					<parameter>Участник</parameter>
-					<detailParameter>УчастникРасшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
@@ -216,23 +214,31 @@
 				</c>
 			</c>
 			<c>
-				<i>10</i>
 				<c>
 					<f>19</f>
 				</c>
 			</c>
 			<c>
-				<i>12</i>
 				<c>
 					<f>20</f>
+				</c>
+			</c>
+			<c>
+				<i>12</i>
+				<c>
+					<f>21</f>
 					<parameter>ЗначениеКолонки</parameter>
 					<detailParameter>ЗначениеКолонкиРасшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
-				<i>14</i>
 				<c>
-					<f>21</f>
+					<f>19</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
 					<parameter>Рейтинг</parameter>
 				</c>
 			</c>
@@ -246,7 +252,7 @@
 			<c>
 				<i>20</i>
 				<c>
-					<f>22</f>
+					<f>23</f>
 					<parameter>ЗначениеКолонки</parameter>
 					<detailParameter>ЗначениеКолонкиРасшифровка</detailParameter>
 				</c>
@@ -263,9 +269,20 @@
 		<row>
 			<columnsID>2af4988f-da83-4a28-ad55-a02c2bd541d5</columnsID>
 			<c>
+				<i>8</i>
+				<c>
+					<f>19</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+				</c>
+			</c>
+			<c>
 				<i>12</i>
 				<c>
-					<f>23</f>
+					<f>24</f>
 					<parameter>СтрокаОчков</parameter>
 				</c>
 			</c>
@@ -286,23 +303,22 @@
 		<index>6</index>
 		<row>
 			<columnsID>2af4988f-da83-4a28-ad55-a02c2bd541d5</columnsID>
-			<formatIndex>24</formatIndex>
+			<formatIndex>25</formatIndex>
 			<c>
 				<i>20</i>
 				<c>
-					<f>25</f>
+					<f>26</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>26</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>7</index>
-		<indexTo>8</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -310,13 +326,18 @@
 	<rowsItem>
 		<index>9</index>
 		<row>
-			<formatIndex>26</formatIndex>
+			<formatIndex>27</formatIndex>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>10</index>
-		<indexTo>13</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -670,14 +691,7 @@
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<protection>false</protection>
-		<containsValue>true</containsValue>
-		<valueType>
-			<v8:Type>xs:string</v8:Type>
-			<v8:StringQualifiers>
-				<v8:Length>15</v8:Length>
-				<v8:AllowedLength>Variable</v8:AllowedLength>
-			</v8:StringQualifiers>
-		</valueType>
+		<containsValue>false</containsValue>
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -687,8 +701,11 @@
 		<controlType>381ed624-9217-4e63-85db-c4c3cb87daae</controlType>
 	</format>
 	<format>
+		<containsValue>false</containsValue>
+	</format>
+	<format>
 		<border>0</border>
-		<backColor xmlns:d3p1="http://v8.1c.ru/8.1/data/ui/colors/web">d3p1:DarkGray</backColor>
+		<backColor xmlns:webc="http://v8.1c.ru/8.1/data/ui/colors/web">webc:DarkGray</backColor>
 	</format>
 	<format>
 		<font>3</font>
@@ -700,14 +717,7 @@
 		<verticalAlignment>Center</verticalAlignment>
 		<fillType>Parameter</fillType>
 		<protection>false</protection>
-		<containsValue>true</containsValue>
-		<valueType>
-			<v8:Type>xs:string</v8:Type>
-			<v8:StringQualifiers>
-				<v8:Length>3</v8:Length>
-				<v8:AllowedLength>Variable</v8:AllowedLength>
-			</v8:StringQualifiers>
-		</valueType>
+		<containsValue>false</containsValue>
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>

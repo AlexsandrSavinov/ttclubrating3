@@ -2245,6 +2245,45 @@
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+              <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+            </items>
+            <items xsi:type="form:Addition">
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <name>ПоискУчастников</name>
+              <id>884</id>
+              <extendedTooltip>
+                <name>ПоискУчастниковРасширеннаяПодсказка</name>
+                <id>886</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ПоискУчастниковКонтекстноеМеню</name>
+                <id>885</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <source>СписокУчастниковСтрокаПоиска</source>
+              <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
+              </extInfo>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2421,7 +2460,6 @@
           <verticalStretch>true</verticalStretch>
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
-          <searchStringLocation>None</searchStringLocation>
           <viewStatusLocation>None</viewStatusLocation>
           <searchControlLocation>None</searchControlLocation>
           <rowFilter xsi:type="core:UndefinedValue"/>
@@ -5012,152 +5050,24 @@
             <horizontalStretch>true</horizontalStretch>
           </extInfo>
         </items>
-        <items xsi:type="form:FormGroup">
-          <name>ТаблицаБыстрогоРасчетаГруппа1</name>
-          <id>256</id>
-          <items xsi:type="form:FormField">
-            <name>ТаблицаБыстрогоРасчетаУчастник1</name>
-            <id>219</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаБыстрогоРасчета.Участник1</segments>
-            </dataPath>
-            <handlers>
-              <event>OnChange</event>
-              <name>ТаблицаБыстрогоРасчетаУчастник1ПриИзменении</name>
-            </handlers>
-            <extendedTooltip>
-              <name>ТаблицаБыстрогоРасчетаУчастник1РасширеннаяПодсказка</name>
-              <id>646</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ТаблицаБыстрогоРасчетаУчастник1КонтекстноеМеню</name>
-              <id>220</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <editMode>EnterOnInput</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <handlers>
-                <event>AutoComplete</event>
-                <name>ТаблицаБыстрогоРасчетаУчастник1АвтоПодбор</name>
-              </handlers>
-              <handlers>
-                <event>StartChoice</event>
-                <name>ТаблицаБыстрогоРасчетаУчастник1НачалоВыбора</name>
-              </handlers>
-              <handlers>
-                <event>Clearing</event>
-                <name>ТаблицаБыстрогоРасчетаУчастник1Очистка</name>
-              </handlers>
-              <handlers>
-                <event>TextEditEnd</event>
-                <name>ТаблицаБыстрогоРасчетаУчастник1ОкончаниеВводаТекста</name>
-              </handlers>
-              <handlers>
-                <event>ChoiceProcessing</event>
-                <name>ТаблицаБыстрогоРасчетаУчастник1ОбработкаВыбора</name>
-              </handlers>
-              <width>12</width>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>true</horizontalStretch>
-              <wrap>true</wrap>
-              <clearButton>true</clearButton>
-              <openButton>false</openButton>
-              <createButton>false</createButton>
-              <choiceListHeight>3</choiceListHeight>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-              <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>ТаблицаБыстрогоРасчетаТекущийРейтинг1</name>
-            <id>223</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаБыстрогоРасчета.ТекущийРейтинг1</segments>
-            </dataPath>
-            <extendedTooltip>
-              <name>ТаблицаБыстрогоРасчетаТекущийРейтинг1РасширеннаяПодсказка</name>
-              <id>647</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ТаблицаБыстрогоРасчетаТекущийРейтинг1КонтекстноеМеню</name>
-              <id>224</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <readOnly>true</readOnly>
-            <editMode>EnterOnInput</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <width>6</width>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>true</horizontalStretch>
-              <wrap>true</wrap>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-            </extInfo>
-          </items>
+        <items xsi:type="form:FormField">
+          <name>ТаблицаБыстрогоРасчетаУчастник1</name>
+          <id>219</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <horizontalStretch>true</horizontalStretch>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ТаблицаБыстрогоРасчета.Участник1</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТаблицаБыстрогоРасчетаУчастник1ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
-            <name>ТаблицаБыстрогоРасчетаГруппа1РасширеннаяПодсказка</name>
-            <id>645</id>
+            <name>ТаблицаБыстрогоРасчетаУчастник1РасширеннаяПодсказка</name>
+            <id>646</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5170,10 +5080,108 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <type>ColumnGroup</type>
-          <extInfo xsi:type="form:ColumnGroupExtInfo">
-            <group>InCell</group>
-            <showTitle>true</showTitle>
+          <contextMenu>
+            <name>ТаблицаБыстрогоРасчетаУчастник1КонтекстноеМеню</name>
+            <id>220</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>AutoComplete</event>
+              <name>ТаблицаБыстрогоРасчетаУчастник1АвтоПодбор</name>
+            </handlers>
+            <handlers>
+              <event>StartChoice</event>
+              <name>ТаблицаБыстрогоРасчетаУчастник1НачалоВыбора</name>
+            </handlers>
+            <handlers>
+              <event>Clearing</event>
+              <name>ТаблицаБыстрогоРасчетаУчастник1Очистка</name>
+            </handlers>
+            <handlers>
+              <event>TextEditEnd</event>
+              <name>ТаблицаБыстрогоРасчетаУчастник1ОкончаниеВводаТекста</name>
+            </handlers>
+            <handlers>
+              <event>ChoiceProcessing</event>
+              <name>ТаблицаБыстрогоРасчетаУчастник1ОбработкаВыбора</name>
+            </handlers>
+            <width>12</width>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <wrap>true</wrap>
+            <clearButton>true</clearButton>
+            <openButton>false</openButton>
+            <createButton>false</createButton>
+            <choiceListHeight>3</choiceListHeight>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+            <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ТаблицаБыстрогоРасчетаТекущийРейтинг1</name>
+          <id>223</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ТаблицаБыстрогоРасчета.ТекущийРейтинг1</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ТаблицаБыстрогоРасчетаТекущийРейтинг1РасширеннаяПодсказка</name>
+            <id>647</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ТаблицаБыстрогоРасчетаТекущийРейтинг1КонтекстноеМеню</name>
+            <id>224</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <readOnly>true</readOnly>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <width>6</width>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -5396,149 +5404,24 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <items xsi:type="form:FormGroup">
-          <name>ТаблицаБыстрогоРасчетаГруппа2</name>
-          <id>257</id>
-          <items xsi:type="form:FormField">
-            <name>ТаблицаБыстрогоРасчетаУчастник2</name>
-            <id>249</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаБыстрогоРасчета.Участник2</segments>
-            </dataPath>
-            <handlers>
-              <event>OnChange</event>
-              <name>ТаблицаБыстрогоРасчетаУчастник2ПриИзменении</name>
-            </handlers>
-            <extendedTooltip>
-              <name>ТаблицаБыстрогоРасчетаУчастник2РасширеннаяПодсказка</name>
-              <id>653</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ТаблицаБыстрогоРасчетаУчастник2КонтекстноеМеню</name>
-              <id>250</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <editMode>EnterOnInput</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <handlers>
-                <event>AutoComplete</event>
-                <name>ТаблицаБыстрогоРасчетаУчастник2АвтоПодбор</name>
-              </handlers>
-              <handlers>
-                <event>StartChoice</event>
-                <name>ТаблицаБыстрогоРасчетаУчастник2НачалоВыбора</name>
-              </handlers>
-              <handlers>
-                <event>Clearing</event>
-                <name>ТаблицаБыстрогоРасчетаУчастник2Очистка</name>
-              </handlers>
-              <handlers>
-                <event>TextEditEnd</event>
-                <name>ТаблицаБыстрогоРасчетаУчастник2ОкончаниеВводаТекста</name>
-              </handlers>
-              <handlers>
-                <event>ChoiceProcessing</event>
-                <name>ТаблицаБыстрогоРасчетаУчастник2ОбработкаВыбора</name>
-              </handlers>
-              <width>12</width>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>true</horizontalStretch>
-              <wrap>true</wrap>
-              <createButton>false</createButton>
-              <choiceListHeight>3</choiceListHeight>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-              <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>ТаблицаБыстрогоРасчетаТекущийРейтинг2</name>
-            <id>252</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ТаблицаБыстрогоРасчета.ТекущийРейтинг2</segments>
-            </dataPath>
-            <extendedTooltip>
-              <name>ТаблицаБыстрогоРасчетаТекущийРейтинг2РасширеннаяПодсказка</name>
-              <id>654</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ТаблицаБыстрогоРасчетаТекущийРейтинг2КонтекстноеМеню</name>
-              <id>253</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <readOnly>true</readOnly>
-            <editMode>EnterOnInput</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <width>6</width>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>true</horizontalStretch>
-              <wrap>true</wrap>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-            </extInfo>
-          </items>
+        <items xsi:type="form:FormField">
+          <name>ТаблицаБыстрогоРасчетаУчастник2</name>
+          <id>249</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ТаблицаБыстрогоРасчета.Участник2</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТаблицаБыстрогоРасчетаУчастник2ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
-            <name>ТаблицаБыстрогоРасчетаГруппа2РасширеннаяПодсказка</name>
-            <id>652</id>
+            <name>ТаблицаБыстрогоРасчетаУчастник2РасширеннаяПодсказка</name>
+            <id>653</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5551,10 +5434,106 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <type>ColumnGroup</type>
-          <extInfo xsi:type="form:ColumnGroupExtInfo">
-            <group>InCell</group>
-            <showTitle>true</showTitle>
+          <contextMenu>
+            <name>ТаблицаБыстрогоРасчетаУчастник2КонтекстноеМеню</name>
+            <id>250</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>AutoComplete</event>
+              <name>ТаблицаБыстрогоРасчетаУчастник2АвтоПодбор</name>
+            </handlers>
+            <handlers>
+              <event>StartChoice</event>
+              <name>ТаблицаБыстрогоРасчетаУчастник2НачалоВыбора</name>
+            </handlers>
+            <handlers>
+              <event>Clearing</event>
+              <name>ТаблицаБыстрогоРасчетаУчастник2Очистка</name>
+            </handlers>
+            <handlers>
+              <event>TextEditEnd</event>
+              <name>ТаблицаБыстрогоРасчетаУчастник2ОкончаниеВводаТекста</name>
+            </handlers>
+            <handlers>
+              <event>ChoiceProcessing</event>
+              <name>ТаблицаБыстрогоРасчетаУчастник2ОбработкаВыбора</name>
+            </handlers>
+            <width>12</width>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <wrap>true</wrap>
+            <createButton>false</createButton>
+            <choiceListHeight>3</choiceListHeight>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+            <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ТаблицаБыстрогоРасчетаТекущийРейтинг2</name>
+          <id>252</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ТаблицаБыстрогоРасчета.ТекущийРейтинг2</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ТаблицаБыстрогоРасчетаТекущийРейтинг2РасширеннаяПодсказка</name>
+            <id>654</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ТаблицаБыстрогоРасчетаТекущийРейтинг2КонтекстноеМеню</name>
+            <id>253</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <readOnly>true</readOnly>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <width>6</width>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
           </extInfo>
         </items>
         <autoCommandBar>
@@ -5622,6 +5601,44 @@
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Addition">
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <name>ПоискУчастниковВБыстромРасчете</name>
+            <id>890</id>
+            <extendedTooltip>
+              <name>ПоискУчастниковВБыстромРасчетеРасширеннаяПодсказка</name>
+              <id>892</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ПоискУчастниковВБыстромРасчетеКонтекстноеМеню</name>
+              <id>891</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <source>ТаблицаБыстрогоРасчетаСтрокаПоиска</source>
+            <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+            </extInfo>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -6176,6 +6193,44 @@
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Addition">
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <name>ПоискУчастников1</name>
+              <id>887</id>
+              <extendedTooltip>
+                <name>ПоискУчастников1РасширеннаяПодсказка</name>
+                <id>889</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ПоискУчастников1КонтекстноеМеню</name>
+                <id>888</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <source>СписокУчастников1СтрокаПоиска</source>
+              <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
+              </extInfo>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -12023,7 +12078,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Судья/Ответственный/Доп.информация</value>
+      <value>Судья / Ответственный / Доп.информация</value>
     </title>
     <extendedTooltip>
       <name>ГруппаСудьиРасширеннаяПодсказка</name>
@@ -12248,7 +12303,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Post</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -12650,7 +12704,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ИконкаExcel</picture>
+      <picture>CommonPicture.ФорматExcel2007</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

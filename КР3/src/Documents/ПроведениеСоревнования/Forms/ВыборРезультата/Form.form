@@ -1754,6 +1754,27 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>Рейтинг</name>
+      <title>
+        <key>ru</key>
+        <value>Рейтинг</value>
+      </title>
+      <id>13</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ВариантыВыбораКоличестваПартий</name>

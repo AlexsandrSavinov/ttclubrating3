@@ -201,9 +201,7 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>DataProcessor.ЗагрузкаУчастников.StandardCommand.Open</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>DataProcessor.СкрытьУчастниковИзОтчетов.StandardCommand.Open</command>

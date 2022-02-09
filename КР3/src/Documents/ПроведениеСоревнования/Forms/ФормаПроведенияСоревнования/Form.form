@@ -421,7 +421,7 @@
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
       <radioButtonsType>Tumbler</radioButtonsType>
-      <columnsCount>10</columnsCount>
+      <columnsCount>1</columnsCount>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -466,37 +466,6 @@
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
             <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
-          </items>
-          <items xsi:type="form:Button">
-            <name>ТабличныйДокументГруппПредварительныйПросмотр</name>
-            <id>575</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ТабличныйДокументГруппПредварительныйПросмотрРасширеннаяПодсказка</name>
-              <id>576</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Item.ТабличныйДокументГрупп.StandardCommand.Preview</commandName>
-            <representation>Picture</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-            <locationInCommandBar>InCommandBar</locationInCommandBar>
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаСохранения</name>
@@ -590,37 +559,6 @@
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <items xsi:type="form:Button">
-              <name>ТабличныйДокументГруппСохранить</name>
-              <id>560</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ТабличныйДокументГруппСохранитьРасширеннаяПодсказка</name>
-                <id>561</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Item.ТабличныйДокументГрупп.StandardCommand.Save</commandName>
-              <representation>Picture</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-              <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>

@@ -44,10 +44,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.ЗагрузкаДанныхИзФайла.Command.ЗагрузкаДанныхИзФайла</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>InformationRegister.НастройкиВерсионированияОбъектов.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
