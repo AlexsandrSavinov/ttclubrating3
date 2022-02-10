@@ -137,6 +137,62 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="acd30e63-68dc-4ab2-a6fe-16eb69d09271">
+    <name>ИнтернетПоддержкаИСервисы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет-поддержка и сервисы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Интернет-сервисы и поддержка. Обновление версии программы. Загрузка классификаторов.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="de0d41b7-acc0-4ebc-8933-d6b5ad351860">
+    <name>ПечатныеФормыОтчетыИОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные формы, отчеты и обработки</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка печатных форм, вариантов отчетов, рассылок отчетов, дополнительных отчетов и обработок.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="9bf2525c-e8fc-44e6-ac14-7df3208dbb0f">
+    <name>НастройкиПользователейИПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки пользователей и прав</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Администрирование пользователей, настройка групп доступа, предоставление доступа для внешних пользователей, управление пользовательскими настройками.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="ef257b20-da10-4cda-8b9d-7de2d68a2f71">
+    <name>НастройкиРаботыСФайлами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки работы с файлами</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка параметров загрузки, хранения и обработки файлов.</value>
+    </toolTip>
+  </commands>
   <commands uuid="f81b1f2d-6fde-4861-8fee-1dbe6acf3985">
     <name>Обслуживание</name>
     <synonym>
@@ -163,20 +219,6 @@
     <toolTip>
       <key>ru</key>
       <value>Изменение заголовка программы, настройка версионирования объектов, дополнительных реквизитов и других общих настроек.</value>
-    </toolTip>
-  </commands>
-  <commands uuid="9bf2525c-e8fc-44e6-ac14-7df3208dbb0f">
-    <name>НастройкиПользователейИПрав</name>
-    <synonym>
-      <key>ru</key>
-      <value>Настройки пользователей и прав</value>
-    </synonym>
-    <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
-    <toolTip>
-      <key>ru</key>
-      <value>Администрирование пользователей, настройка групп доступа, предоставление доступа для внешних пользователей, управление пользовательскими настройками.</value>
     </toolTip>
   </commands>
   <commands uuid="a2faa3f8-5064-4fbf-a90e-26d15c021cd3">
@@ -206,48 +248,6 @@
       <key>ru</key>
       <value>Синхронизация данных с другими программами
 и организация совместной работы в распределенной информационной базе.</value>
-    </toolTip>
-  </commands>
-  <commands uuid="ef257b20-da10-4cda-8b9d-7de2d68a2f71">
-    <name>НастройкиРаботыСФайлами</name>
-    <synonym>
-      <key>ru</key>
-      <value>Настройки работы с файлами</value>
-    </synonym>
-    <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
-    <toolTip>
-      <key>ru</key>
-      <value>Настройка параметров загрузки, хранения и обработки файлов.</value>
-    </toolTip>
-  </commands>
-  <commands uuid="de0d41b7-acc0-4ebc-8933-d6b5ad351860">
-    <name>ПечатныеФормыОтчетыИОбработки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Печатные формы, отчеты и обработки</value>
-    </synonym>
-    <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
-    <toolTip>
-      <key>ru</key>
-      <value>Настройка печатных форм, вариантов отчетов, рассылок отчетов, дополнительных отчетов и обработок.</value>
-    </toolTip>
-  </commands>
-  <commands uuid="acd30e63-68dc-4ab2-a6fe-16eb69d09271">
-    <name>ИнтернетПоддержкаИСервисы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Интернет-поддержка и сервисы</value>
-    </synonym>
-    <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
-    <toolTip>
-      <key>ru</key>
-      <value>Интернет-сервисы и поддержка. Обновление версии программы. Загрузка классификаторов.</value>
     </toolTip>
   </commands>
 </mdclass:DataProcessor>

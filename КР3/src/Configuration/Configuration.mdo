@@ -853,6 +853,7 @@
   <commonCommands>CommonCommand.СохранитьMXL_PNG</commonCommands>
   <commonCommands>CommonCommand.ОтправитьMXL_VK</commonCommands>
   <commonCommands>CommonCommand.ОтправитьMXL_Telegram</commonCommands>
+  <commonCommands>CommonCommand.ОткрытьНастройкиПрограммы</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Справочники</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>

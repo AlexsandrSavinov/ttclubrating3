@@ -194,12 +194,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>CommonForm.НастройкиПрограммы.StandardCommand.Open</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>DataProcessor.ЗагрузкаУчастников.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -273,7 +267,6 @@
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Сервис</group>
-      <commands>CommonForm.НастройкиПрограммы.StandardCommand.Open</commands>
       <commands>DataProcessor.ЗагрузкаУчастников.StandardCommand.Open</commands>
       <commands>DataProcessor.СкрытьУчастниковИзОтчетов.StandardCommand.Open</commands>
     </placementFragments>
@@ -330,7 +323,6 @@
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Сервис</group>
-      <commands>CommonForm.НастройкиПрограммы.StandardCommand.Open</commands>
       <commands>DataProcessor.ЗагрузкаУчастников.StandardCommand.Open</commands>
       <commands>DataProcessor.СкрытьУчастниковИзОтчетов.StandardCommand.Open</commands>
     </orderFragments>

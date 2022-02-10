@@ -60,4 +60,5 @@
   <content>CommonForm.НастройкиВходаПользователей</content>
   <content>CommonForm.УстановленныеИсправления</content>
   <content>CommonForm.ВосстановлениеПаролей</content>
+  <content>CommonCommand.ОткрытьНастройкиПрограммы</content>
 </mdclass:Subsystem>

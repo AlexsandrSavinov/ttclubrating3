@@ -982,13 +982,6 @@
               <backColor xsi:type="core:ColorRef">
                 <color>Web.LightGreen</color>
               </backColor>
-              <font xsi:type="core:FontRef">
-                <font>System.DefaultGUIFont</font>
-                <bold>true</bold>
-                <italic>false</italic>
-                <underline>false</underline>
-                <strikeout>false</strikeout>
-              </font>
             </extInfo>
           </items>
           <items xsi:type="form:Decoration">
