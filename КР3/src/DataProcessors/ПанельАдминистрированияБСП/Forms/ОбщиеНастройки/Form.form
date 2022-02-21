@@ -153,7 +153,6 @@
         <key>ru</key>
         <value>Заголовок программы</value>
       </title>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>

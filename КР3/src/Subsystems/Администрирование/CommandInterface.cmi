@@ -238,9 +238,8 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>DataProcessor.ПанельАдминистрированияБСП.Command.Обслуживание</commands>
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.ОбщиеНастройки</commands>
-      <commands>CommonCommand.ОткрытьНастройкиПрограммы</commands>
+      <commands>DataProcessor.ПанельАдминистрированияБСП.Command.Обслуживание</commands>
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.НастройкиПользователейИПрав</commands>
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.ИнтернетПоддержкаИСервисы</commands>
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.Органайзер</commands>

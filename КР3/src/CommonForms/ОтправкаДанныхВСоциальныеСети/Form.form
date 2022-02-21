@@ -1376,7 +1376,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ИконкаPDF</picture>
+      <picture>CommonPicture.ФорматPDF</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -1401,7 +1401,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ИконкаExcel</picture>
+      <picture>CommonPicture.ФорматExcel2007</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
