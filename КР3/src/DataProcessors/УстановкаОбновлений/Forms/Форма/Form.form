@@ -774,17 +774,22 @@
             <id>1153</id>
             <title>
               <key>ru</key>
-              <value>с портала 1C:Обновление программ.</value>
+              <value>с сайта &lt;link https://ttclubrating.ru/download/>ttclubrating.ru&lt;/></value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
+            <formatted>true</formatted>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <handlers>
+                <event>Click</event>
+                <name>ПоискИУстановкаОбновленийРасширеннаяПодсказкаНажатие</name>
+              </handlers>
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>

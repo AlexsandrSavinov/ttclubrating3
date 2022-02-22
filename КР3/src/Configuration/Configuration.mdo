@@ -22,7 +22,7 @@
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Савинов А.В.</vendor>
   <version>3.0.0.1</version>
-  <updateCatalogAddress>http://ttclubrating.ru/updates</updateCatalogAddress>
+  <updateCatalogAddress>https://ttclubrating.ru/updates</updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -54,11 +54,11 @@
   </copyright>
   <vendorInformationAddress>
     <key>ru</key>
-    <value>http://ttclubrating.ru</value>
+    <value>https://ttclubrating.ru</value>
   </vendorInformationAddress>
   <configurationInformationAddress>
     <key>ru</key>
-    <value>http://ttclubrating.ru</value>
+    <value>https://ttclubrating.ru</value>
   </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
