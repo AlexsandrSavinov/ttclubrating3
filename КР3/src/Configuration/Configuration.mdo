@@ -22,7 +22,7 @@
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Савинов А.В.</vendor>
   <version>3.0.0.1</version>
-  <updateCatalogAddress>https://ttclubrating.ru/updates</updateCatalogAddress>
+  <updateCatalogAddress>https://ttclubrating.ru/update</updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -1109,7 +1109,6 @@
   <dataProcessors>DataProcessor.ПереносФайлов</dataProcessors>
   <dataProcessors>DataProcessor.ПоискИУдалениеДублей</dataProcessors>
   <dataProcessors>DataProcessor.Правила</dataProcessors>
-  <dataProcessors>DataProcessor.ПроверкаОбновления</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСФайлами</dataProcessors>
   <dataProcessors>DataProcessor.РасширенныйВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>

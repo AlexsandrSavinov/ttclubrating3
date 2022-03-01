@@ -90,14 +90,10 @@
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>
-      <commands>DataProcessor.ПроверкаОбновления.StandardCommand.Open</commands>
       <commands>0:51511945-19c6-4323-b274-3333b8d1d70b</commands>
       <commands>CommonForm.НастройкиПрограммы.StandardCommand.Open</commands>
       <commands>DataProcessor.ЗагрузкаУчастников.StandardCommand.Open</commands>
-      <commands>DataProcessor.ПроверкаОбновления.Command.ВосстановитьИБ</commands>
-      <commands>DataProcessor.ПроверкаОбновления.Command.Обновление</commands>
       <commands>DataProcessor.Правила.StandardCommand.Open</commands>
-      <commands>DataProcessor.ПроверкаОбновления.Command.РезервнаяКопия</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
