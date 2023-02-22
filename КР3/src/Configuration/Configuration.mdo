@@ -89,10 +89,12 @@
   <styleItems>StyleItem.ЗаблокированныйРеквизитЦвет</styleItems>
   <styleItems>StyleItem.ЗаголовокУдаленногоРеквизитаФон</styleItems>
   <styleItems>StyleItem.ЗаголовокУдаленногоРеквизитаШрифт</styleItems>
+  <styleItems>StyleItem.ЗеленыйПобеда</styleItems>
   <styleItems>StyleItem.ИзмененноеЗначениеРеквизитаФон</styleItems>
   <styleItems>StyleItem.ИзмененноеЗначениеРеквизитаЦвет</styleItems>
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <styleItems>StyleItem.КонтактнаяИнформацияСРедактированиемВДиалогеЦвет</styleItems>
+  <styleItems>StyleItem.КрасныйПоражение</styleItems>
   <styleItems>StyleItem.МоиВариантыОтчетовЦвет</styleItems>
   <styleItems>StyleItem.ОбразецНастройкиКолонтитуловЦвет</styleItems>
   <styleItems>StyleItem.ОбразецНастройкиКолонтитуловШрифт</styleItems>
@@ -118,8 +120,6 @@
   <styleItems>StyleItem.ЦветРазделаПанелиФункций</styleItems>
   <styleItems>StyleItem.ЦветТекстаВнимание</styleItems>
   <styleItems>StyleItem.ЦветТекстаНевыбраннойКартинки</styleItems>
-  <styleItems>StyleItem.ЗеленыйПобеда</styleItems>
-  <styleItems>StyleItem.КрасныйПоражение</styleItems>
   <styleItems>StyleItem.ЦветТекстаОтрицательногоЗначения</styleItems>
   <styleItems>StyleItem.ЦветТекстаПоложительногоЗначения</styleItems>
   <styleItems>StyleItem.ЦветФонаВнимание</styleItems>
@@ -544,12 +544,16 @@
   <commonModules>CommonModule.КлиентЛицензированияВызовСервера</commonModules>
   <commonModules>CommonModule.КлиентЛицензированияГлобальный</commonModules>
   <commonModules>CommonModule.КлиентЛицензированияКлиент</commonModules>
-  <commonModules>CommonModule.КлиентскиеКлиент</commonModules>
   <commonModules>CommonModule.КоннекторHTTP</commonModules>
   <commonModules>CommonModule.КонструкторФормул</commonModules>
   <commonModules>CommonModule.КонструкторФормулКлиент</commonModules>
   <commonModules>CommonModule.КонструкторФормулКлиентСервер</commonModules>
   <commonModules>CommonModule.КонструкторФормулСлужебный</commonModules>
+  <commonModules>CommonModule.КР_КлиентскиеКлиент</commonModules>
+  <commonModules>CommonModule.КР_ОбщийКлиентСервер</commonModules>
+  <commonModules>CommonModule.КР_РаботаССоциальнымиСетямиКлиент</commonModules>
+  <commonModules>CommonModule.КР_РаботаССоциальнымиСетямиКлиентСервер</commonModules>
+  <commonModules>CommonModule.КР_СерверныеСервер</commonModules>
   <commonModules>CommonModule.НапоминанияПользователя</commonModules>
   <commonModules>CommonModule.НапоминанияПользователяВызовСервера</commonModules>
   <commonModules>CommonModule.НапоминанияПользователяГлобальный</commonModules>
@@ -587,7 +591,6 @@
   <commonModules>CommonModule.ОбщегоНазначенияПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
   <commonModules>CommonModule.ОтчетыКлиент</commonModules>
   <commonModules>CommonModule.ОтчетыКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.ОтчетыКлиентСервер</commonModules>
@@ -644,8 +647,6 @@
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиПереопределяемый</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиСлужебный</commonModules>
-  <commonModules>CommonModule.РаботаССоциальнымиСетямиКлиент</commonModules>
-  <commonModules>CommonModule.РаботаССоциальнымиСетямиКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаССоциальнымиСетямиСервер</commonModules>
   <commonModules>CommonModule.РаботаСФайлами</commonModules>
   <commonModules>CommonModule.РаботаСФайламиВТомахСлужебный</commonModules>
@@ -676,7 +677,6 @@
   <commonModules>CommonModule.РезервноеКопированиеИБКлиент</commonModules>
   <commonModules>CommonModule.РезервноеКопированиеИБКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.РезервноеКопированиеИБСервер</commonModules>
-  <commonModules>CommonModule.СерверныеСервер</commonModules>
   <commonModules>CommonModule.СоединенияИБ</commonModules>
   <commonModules>CommonModule.СоединенияИБВызовСервера</commonModules>
   <commonModules>CommonModule.СоединенияИБГлобальный</commonModules>
@@ -1083,6 +1083,7 @@
   <reports>Report.ПрогрессОбновленияОбластейДанных</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.РазрядыИЗвания</reports>
+  <reports>Report.РейтингЗаПериод</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.СписокБыстрогоРасчета</reports>
   <reports>Report.СписокУчастниковСоревнований</reports>

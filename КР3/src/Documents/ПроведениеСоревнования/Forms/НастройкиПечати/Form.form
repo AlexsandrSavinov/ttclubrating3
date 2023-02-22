@@ -1154,11 +1154,11 @@
       </autoCommandBar>
       <handlers>
         <event>BeforeAddRow</event>
-        <name>ДокОбъектХодСоревнованияПередНачаломДобавления</name>
+        <name>ДокОбъектХодСоревнованияКомандыПередНачаломДобавления</name>
       </handlers>
       <handlers>
         <event>BeforeDeleteRow</event>
-        <name>ДокОбъектХодСоревнованияПередУдалением</name>
+        <name>ДокОбъектХодСоревнованияКомандыПередУдалением</name>
       </handlers>
       <searchStringAddition>
         <visible>true</visible>

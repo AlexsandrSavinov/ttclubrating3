@@ -70,19 +70,19 @@
           <choiceList>
             <presentation>
               <key>ru</key>
-              <value>Командные</value>
+              <value>Быстрый расчет</value>
             </presentation>
             <value xsi:type="core:NumberValue">
-              <value>2</value>
+              <value>1</value>
             </value>
           </choiceList>
           <choiceList>
             <presentation>
               <key>ru</key>
-              <value>Быстрый расчет</value>
+              <value>Командные</value>
             </presentation>
             <value xsi:type="core:NumberValue">
-              <value>1</value>
+              <value>2</value>
             </value>
           </choiceList>
           <font xsi:type="core:FontRef">
@@ -4903,7 +4903,7 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>AlwaysHorizontal</group>
-            <representation>WeakSeparation</representation>
+            <representation>NormalSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>

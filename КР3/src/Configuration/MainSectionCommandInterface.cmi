@@ -216,11 +216,11 @@
       <commands>Document.ПроведениеСоревнования.StandardCommand.OpenList</commands>
       <commands>Document.КорректировкаРейтинга.StandardCommand.OpenList</commands>
       <commands>Document.ПрисвоитьРазряд.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ТекущиеВстречи.Command.ТекущиеВстречи</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>InformationRegister.НапоминанияПользователя.Command.МоиНапоминания</commands>
+      <commands>InformationRegister.ТекущиеВстречи.Command.ТекущиеВстречи</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Справочники</group>
@@ -255,6 +255,7 @@
       <commands>Report.ТекущийРейтингУчастников.StandardCommand.Open</commands>
       <commands>Report.ДетализацияПрироста.StandardCommand.Open</commands>
       <commands>Report.СуммаПриростаЗаПериод.StandardCommand.Open</commands>
+      <commands>Report.РейтингЗаПериод.StandardCommand.Open</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ОтчетыУчастников</group>
@@ -281,7 +282,6 @@
       <commands>Document.ПроведениеСоревнования.StandardCommand.OpenList</commands>
       <commands>Document.КорректировкаРейтинга.StandardCommand.OpenList</commands>
       <commands>Document.ПрисвоитьРазряд.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ТекущиеВстречи.Command.ТекущиеВстречи</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Справочники</group>
@@ -311,6 +311,7 @@
       <commands>Report.ТекущийРейтингУчастников.StandardCommand.Open</commands>
       <commands>Report.ДетализацияПрироста.StandardCommand.Open</commands>
       <commands>Report.СуммаПриростаЗаПериод.StandardCommand.Open</commands>
+      <commands>Report.РейтингЗаПериод.StandardCommand.Open</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.ОтчетыУчастников</group>
@@ -325,6 +326,11 @@
       <group>CommandGroup.Сервис</group>
       <commands>DataProcessor.ЗагрузкаУчастников.StandardCommand.Open</commands>
       <commands>DataProcessor.СкрытьУчастниковИзОтчетов.StandardCommand.Open</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>InformationRegister.НапоминанияПользователя.Command.МоиНапоминания</commands>
+      <commands>InformationRegister.ТекущиеВстречи.Command.ТекущиеВстречи</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

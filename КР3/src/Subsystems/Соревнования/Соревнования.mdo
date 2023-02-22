@@ -50,5 +50,6 @@
   <content>Report.ОтчетМестаУчастников</content>
   <content>InformationRegister.ПериодДействияРазрядов</content>
   <content>Report.ИзменениеПозицийУчастниковПоРейтингу</content>
+  <content>Report.РейтингЗаПериод</content>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

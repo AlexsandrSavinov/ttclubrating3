@@ -6821,16 +6821,20 @@
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
       <handlers>
-        <event>OnActivate</event>
+        <event>OnChangeAreaContent</event>
         <name>ОтчетТабличныйДокументПриАктивизации</name>
       </handlers>
       <handlers>
-        <event>Selection</event>
-        <name>ОтчетТабличныйДокументВыбор</name>
+        <event>AdditionalDetailProcessing</event>
+        <name>ОтчетТабличныйДокументОбработкаДополнительнойРасшифровки</name>
       </handlers>
       <handlers>
         <event>DetailProcessing</event>
         <name>ОтчетТабличныйДокументОбработкаРасшифровки</name>
+      </handlers>
+      <handlers>
+        <event>Selection</event>
+        <name>ОтчетТабличныйДокументВыбор</name>
       </handlers>
       <width>59</width>
       <autoMaxWidth>true</autoMaxWidth>
