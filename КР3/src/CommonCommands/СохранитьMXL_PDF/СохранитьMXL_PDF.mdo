@@ -13,6 +13,6 @@
     <value>Сохранить в PDF</value>
   </toolTip>
   <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.ФорматPDF</picture>
+    <picture>CommonPicture.ИконкаPDF</picture>
   </picture>
 </mdclass:CommonCommand>

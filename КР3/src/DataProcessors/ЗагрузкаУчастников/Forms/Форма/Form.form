@@ -394,7 +394,6 @@
           <horizontalStretch>true</horizontalStretch>
           <font xsi:type="core:FontRef">
             <font>System.DefaultGUIFont</font>
-            <height>10.0</height>
             <bold>true</bold>
             <italic>false</italic>
             <underline>false</underline>
@@ -610,6 +609,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ТаблицаСоответствийСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -648,9 +648,9 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ТаблицаСоответствийСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -687,6 +687,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ТаблицаСоответствийУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1682,6 +1683,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ДанныеЗагрузкиСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1720,9 +1722,9 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ДанныеЗагрузкиСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -1759,6 +1761,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ДанныеЗагрузкиУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2421,7 +2424,7 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>DocumentRef.КорректировкаРейтинга</types>
+      <types>DocumentRef.ВводНачальногоРейтинга</types>
     </valueType>
     <view>
       <common>true</common>

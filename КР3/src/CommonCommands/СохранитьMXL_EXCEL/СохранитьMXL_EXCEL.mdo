@@ -13,6 +13,6 @@
     <value>Сохранить в Excel</value>
   </toolTip>
   <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.ФорматExcel2007</picture>
+    <picture>CommonPicture.ИконкаExcel</picture>
   </picture>
 </mdclass:CommonCommand>

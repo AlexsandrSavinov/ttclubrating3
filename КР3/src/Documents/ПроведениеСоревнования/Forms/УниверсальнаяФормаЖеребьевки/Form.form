@@ -562,7 +562,12 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>МестаИзТура</segments>
               </dataPath>
-              <titleLocation>Right</titleLocation>
+              <titleLocation>None</titleLocation>
+              <toolTip>
+                <key>ru</key>
+                <value>Места тура №</value>
+              </toolTip>
+              <toolTipRepresentation>Button</toolTipRepresentation>
               <handlers>
                 <event>OnChange</event>
                 <name>МестаИзЭтапаПриИзменении</name>
@@ -1047,19 +1052,20 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>Группа6</name>
-            <id>253</id>
-            <items xsi:type="form:Addition">
+            <name>ИсходныеИгрокиГруппа1</name>
+            <id>82</id>
+            <displayImportance>VeryHigh</displayImportance>
+            <items xsi:type="form:Button">
+              <name>ВправоВсех</name>
+              <id>19</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <name>ПоискУчастниковВИсходных</name>
-              <id>241</id>
               <extendedTooltip>
-                <name>ПоискУчастниковВИсходныхРасширеннаяПодсказка</name>
-                <id>243</id>
+                <name>ВправоВсехРасширеннаяПодсказка</name>
+                <id>163</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1072,94 +1078,24 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <contextMenu>
-                <name>ПоискУчастниковВИсходныхКонтекстноеМеню</name>
-                <id>242</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <source>ИсходныеИгрокиСтрокаПоиска</source>
-              <extInfo xsi:type="form:SearchStringAdditionExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
-                <horizontalStretch>true</horizontalStretch>
-              </extInfo>
+              <commandName>Form.Command.ВправоВсех</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
             </items>
-            <items xsi:type="form:FormGroup">
-              <name>ИсходныеИгрокиГруппа1</name>
-              <id>82</id>
-              <displayImportance>VeryHigh</displayImportance>
-              <items xsi:type="form:Button">
-                <name>ВправоВсех</name>
-                <id>19</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <extendedTooltip>
-                  <name>ВправоВсехРасширеннаяПодсказка</name>
-                  <id>163</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <commandName>Form.Command.ВправоВсех</commandName>
-                <representation>Auto</representation>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <placementArea>UserCmds</placementArea>
-                <representationInContextMenu>Auto</representationInContextMenu>
-              </items>
-              <items xsi:type="form:Button">
-                <name>Вправо</name>
-                <id>16</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <extendedTooltip>
-                  <name>ВправоРасширеннаяПодсказка</name>
-                  <id>164</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <commandName>Form.Command.Вправо</commandName>
-                <representation>Auto</representation>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <placementArea>UserCmds</placementArea>
-                <representationInContextMenu>Auto</representationInContextMenu>
-              </items>
+            <items xsi:type="form:Button">
+              <name>Вправо</name>
+              <id>16</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ИсходныеИгрокиГруппа1РасширеннаяПодсказка</name>
-                <id>162</id>
+                <name>ВправоРасширеннаяПодсказка</name>
+                <id>164</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1172,23 +1108,21 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <type>CommandBar</type>
-              <extInfo xsi:type="form:CommandBarExtInfo">
-                <horizontalAlign>Right</horizontalAlign>
-              </extInfo>
+              <commandName>Form.Command.Вправо</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Группа6</value>
-            </title>
             <extendedTooltip>
-              <name>Группа6РасширеннаяПодсказка</name>
-              <id>254</id>
+              <name>ИсходныеИгрокиГруппа1РасширеннаяПодсказка</name>
+              <id>162</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1201,13 +1135,9 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <type>UsualGroup</type>
-            <extInfo xsi:type="form:UsualGroupExtInfo">
-              <group>HorizontalIfPossible</group>
-              <showLeftMargin>true</showLeftMargin>
-              <united>true</united>
-              <throughAlign>Auto</throughAlign>
-              <currentRowUse>Auto</currentRowUse>
+            <type>CommandBar</type>
+            <extInfo xsi:type="form:CommandBarExtInfo">
+              <horizontalAlign>Right</horizontalAlign>
             </extInfo>
           </items>
           <items xsi:type="form:Table">
@@ -1237,57 +1167,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <items xsi:type="form:FormField">
-              <name>ИсходныеИгрокиНомерГруппы</name>
-              <id>238</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>ИсходныеИгроки.НомерГруппы</segments>
-              </dataPath>
-              <extendedTooltip>
-                <name>ИсходныеИгрокиНомерГруппыРасширеннаяПодсказка</name>
-                <id>240</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ИсходныеИгрокиНомерГруппыКонтекстноеМеню</name>
-                <id>239</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>InputField</type>
-              <readOnly>true</readOnly>
-              <editMode>Enter</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
-                <textEdit>true</textEdit>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormField">
               <name>ИсходныеИгрокиМестоВГруппе</name>
               <id>31</id>
               <visible>true</visible>
@@ -1298,6 +1177,7 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>ИсходныеИгроки.МестоВГруппе</segments>
               </dataPath>
+              <titleLocation>None</titleLocation>
               <toolTip>
                 <key>ru</key>
                 <value>Место участника которое он занял в своем последнем этапе</value>
@@ -1713,6 +1593,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
+              <source>ИсходныеИгрокиСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1751,9 +1632,9 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
+              <source>ИсходныеИгрокиСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
-                <horizontalLocation>Left</horizontalLocation>
               </extInfo>
             </viewStatusAddition>
             <searchControlAddition>
@@ -1790,6 +1671,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
+              <source>ИсходныеИгрокиУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2145,80 +2027,16 @@
                 <representationInContextMenu>Auto</representationInContextMenu>
                 <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
               </items>
-              <items xsi:type="form:FormGroup">
-                <name>ГруппаУстановитьНомераУчастников</name>
-                <id>247</id>
-                <items xsi:type="form:Button">
-                  <name>КомандаУстановитьПоПорядку</name>
-                  <id>249</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>КомандаУстановитьПоПорядкуРасширеннаяПодсказка</name>
-                    <id>250</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>Form.Command.КомандаУстановитьПоПорядку</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>КомандаУстановитьНомераПервыйПоследний</name>
-                  <id>251</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>КомандаУстановитьНомераПервыйПоследнийРасширеннаяПодсказка</name>
-                    <id>252</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>Form.Command.КомандаУстановитьНомераПервыйПоследний</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
+              <items xsi:type="form:Button">
+                <name>УчастникиВСледующийТурКомандаУстановитьНомераГрупп</name>
+                <id>65</id>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <title>
-                  <key>ru</key>
-                  <value>Установить № участ.</value>
-                </title>
                 <extendedTooltip>
-                  <name>ГруппаУстановитьНомераУчастниковРасширеннаяПодсказка</name>
-                  <id>248</id>
+                  <name>УчастникиВСледующийТурКомандаУстановитьНомераГруппРасширеннаяПодсказка</name>
+                  <id>195</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2231,10 +2049,12 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <type>Popup</type>
-                <extInfo xsi:type="form:PopupGroupExtInfo">
-                  <representation>Auto</representation>
-                </extInfo>
+                <commandName>Form.Command.КомандаУстановитьНомераГрупп</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2407,45 +2227,6 @@
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <items xsi:type="form:Addition">
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <name>ПоискУчастниковВВыбранных</name>
-              <id>244</id>
-              <extendedTooltip>
-                <name>ПоискУчастниковВВыбранныхРасширеннаяПодсказка</name>
-                <id>246</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ПоискУчастниковВВыбранныхКонтекстноеМеню</name>
-                <id>245</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <source>УчастникиВСледующийТурСтрокаПоиска</source>
-              <extInfo xsi:type="form:SearchStringAdditionExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
-                <horizontalStretch>true</horizontalStretch>
-              </extInfo>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3004,6 +2785,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
+              <source>УчастникиВСледующийТурСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3042,9 +2824,9 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
+              <source>УчастникиВСледующийТурСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
-                <horizontalLocation>Left</horizontalLocation>
               </extInfo>
             </viewStatusAddition>
             <searchControlAddition>
@@ -3081,6 +2863,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
+              <source>УчастникиВСледующийТурУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3607,7 +3390,7 @@
       <name>МестоВГруппе</name>
       <title>
         <key>ru</key>
-        <value>Место</value>
+        <value>Место в группе</value>
       </title>
       <id>5</id>
       <valueType>
@@ -3635,26 +3418,6 @@
         <stringQualifiers>
           <length>300</length>
         </stringQualifiers>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>НомерГруппы</name>
-      <title>
-        <key>ru</key>
-        <value>№ группы</value>
-      </title>
-      <id>22</id>
-      <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>2</precision>
-        </numberQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -4100,7 +3863,7 @@
     <name>МестаИзТура</name>
     <title>
       <key>ru</key>
-      <value>места из тура</value>
+      <value>Места тура №</value>
     </title>
     <id>19</id>
     <valueType>
@@ -4322,6 +4085,23 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
+    <name>КомандаУстановитьНомераГрупп</name>
+    <title>
+      <key>ru</key>
+      <value>Установить № групп</value>
+    </title>
+    <id>9</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаУстановитьНомераГрупп</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
     <name>СортироватьПоГруппеИРейтингу</name>
     <title>
       <key>ru</key>
@@ -4448,40 +4228,6 @@
       <common>true</common>
     </use>
     <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>КомандаУстановитьПоПорядку</name>
-    <title>
-      <key>ru</key>
-      <value>По порядку (1-2,3-4...)</value>
-    </title>
-    <id>15</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаУстановитьПоПорядку</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>КомандаУстановитьНомераПервыйПоследний</name>
-    <title>
-      <key>ru</key>
-      <value>Первый последний (1-8,5-4...)</value>
-    </title>
-    <id>16</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаУстановитьНомераПервыйПоследний</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
     <name>ЖеребьевкаКоманд</name>

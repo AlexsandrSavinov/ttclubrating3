@@ -8,7 +8,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.КорректировкаРейтинга.StandardCommand.OpenList</command>
+      <command>Document.ВводНачальногоРейтинга.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -40,7 +40,7 @@
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ПроведениеСоревнования.StandardCommand.OpenList</commands>
-      <commands>Document.КорректировкаРейтинга.StandardCommand.OpenList</commands>
+      <commands>Document.ВводНачальногоРейтинга.StandardCommand.OpenList</commands>
       <commands>Document.ПрисвоитьРазряд.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
@@ -53,7 +53,7 @@
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ПроведениеСоревнования.StandardCommand.OpenList</commands>
-      <commands>Document.КорректировкаРейтинга.StandardCommand.OpenList</commands>
+      <commands>Document.ВводНачальногоРейтинга.StandardCommand.OpenList</commands>
       <commands>Document.ПрисвоитьРазряд.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ТекущиеВстречи.Command.ТекущиеВстречи</commands>
     </orderFragments>
@@ -90,10 +90,14 @@
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>
-      <commands>0:51511945-19c6-4323-b274-3333b8d1d70b</commands>
+      <commands>DataProcessor.ПроверкаОбновления.StandardCommand.Open</commands>
+      <commands>DataProcessor.СозданиеПользователя.StandardCommand.Open</commands>
       <commands>CommonForm.НастройкиПрограммы.StandardCommand.Open</commands>
       <commands>DataProcessor.ЗагрузкаУчастников.StandardCommand.Open</commands>
+      <commands>DataProcessor.ПроверкаОбновления.Command.ВосстановитьИБ</commands>
+      <commands>DataProcessor.ПроверкаОбновления.Command.Обновление</commands>
       <commands>DataProcessor.Правила.StandardCommand.Open</commands>
+      <commands>DataProcessor.ПроверкаОбновления.Command.РезервнаяКопия</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

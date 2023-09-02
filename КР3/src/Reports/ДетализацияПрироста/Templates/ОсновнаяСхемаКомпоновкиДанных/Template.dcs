@@ -15,19 +15,17 @@
 					<v8:content>W</v8:content>
 				</v8:item>
 			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>3</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
 					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЧН=0</v8:content>
-						</v8:item>
-					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -40,19 +38,17 @@
 					<v8:content>L</v8:content>
 				</v8:item>
 			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>3</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
 					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЧН=0</v8:content>
-						</v8:item>
-					</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</field>
@@ -170,8 +166,8 @@
 		<query>ВЫБРАТЬ
 	ДетализацияПриростаРейтинга.Участник1 КАК Участник1,
 	ДетализацияПриростаРейтинга.Рейтинг1 КАК Рейтинг1,
-	ДетализацияПриростаРейтинга.Очки1 КАК Очки1,
-	ДетализацияПриростаРейтинга.Очки2 КАК Очки2,
+	ПРЕДСТАВЛЕНИЕ(ДетализацияПриростаРейтинга.Очки1) КАК Очки1,
+	ПРЕДСТАВЛЕНИЕ(ДетализацияПриростаРейтинга.Очки2) КАК Очки2,
 	ДетализацияПриростаРейтинга.Рейтинг2 КАК Рейтинг2,
 	ДетализацияПриростаРейтинга.Участник2 КАК Участник2,
 	ДетализацияПриростаРейтинга.Прирост КАК Прирост,
@@ -191,7 +187,7 @@
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
- ВЫБРАТЬ
+ВЫБРАТЬ
 	ПроведениеСоревнованияБонусы.Ссылка КАК Ссылка,
 	ПроведениеСоревнованияБонусы.Участник КАК Участник,
 	СУММА(ПроведениеСоревнованияБонусы.КоличествоБонуса) КАК КоличествоБонуса
@@ -200,10 +196,11 @@
 	Документ.ПроведениеСоревнования.Бонусы КАК ПроведениеСоревнованияБонусы
 ГДЕ
 	ПроведениеСоревнованияБонусы.Ссылка В
-		(ВЫБРАТЬ
-			втВсеДанныеТЗ.Ссылка
-		ИЗ
-			втВсеДанныеТЗ)
+			(ВЫБРАТЬ
+				втВсеДанныеТЗ.Ссылка
+			ИЗ
+				втВсеДанныеТЗ)
+
 СГРУППИРОВАТЬ ПО
 	ПроведениеСоревнованияБонусы.Ссылка,
 	ПроведениеСоревнованияБонусы.Участник
@@ -214,7 +211,7 @@
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
- ВЫБРАТЬ
+ВЫБРАТЬ
 	ПроведениеСоревнованияСписокУчастников.Участник КАК Участник,
 	МАКСИМУМ(ПроведениеСоревнованияСписокУчастников.Ссылка.Дата) КАК Дата
 ПОМЕСТИТЬ втПоследнееСоревнование
@@ -222,16 +219,17 @@
 	Документ.ПроведениеСоревнования.СписокУчастников КАК ПроведениеСоревнованияСписокУчастников
 ГДЕ
 	ПроведениеСоревнованияСписокУчастников.Участник В
-		(ВЫБРАТЬ
-			втВсеДанныеТЗ.Участник1
-		ИЗ
-			втВсеДанныеТЗ)
+			(ВЫБРАТЬ
+				втВсеДанныеТЗ.Участник1
+			ИЗ
+				втВсеДанныеТЗ)
+
 СГРУППИРОВАТЬ ПО
 	ПроведениеСоревнованияСписокУчастников.Участник
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
- ВЫБРАТЬ
+ВЫБРАТЬ
 	втВсеДанныеТЗ.Участник1 КАК Участник1,
 	втВсеДанныеТЗ.Рейтинг1 КАК Рейтинг1,
 	втВсеДанныеТЗ.Очки1 КАК Очки1,
@@ -246,15 +244,15 @@
 	ЕСТЬNULL(втВсеБонусы1.КоличествоБонуса, 0) КАК Бонус1,
 	ЕСТЬNULL(втВсеБонусы2.КоличествоБонуса, 0) КАК Бонус2,
 	ЕСТЬNULL(втПоследнееСоревнование1.Дата, ДАТАВРЕМЯ(1, 1, 1)) КАК ДатаПоследнегоСоревнования1,
-	ЕСТЬNULL(втПоследнееСоревнование2.Дата, ДАТАВРЕМЯ(1, 1, 1)) КАК ДатаПоследнегоСоревнования2
+	ЕСТЬNULL(втПоследнееСоревнование1.Дата, ДАТАВРЕМЯ(1, 1, 1)) КАК ДатаПоследнегоСоревнования2
 ИЗ
 	втВсеДанныеТЗ КАК втВсеДанныеТЗ
 		ЛЕВОЕ СОЕДИНЕНИЕ втВсеБонусы КАК втВсеБонусы1
 		ПО втВсеДанныеТЗ.Ссылка = втВсеБонусы1.Ссылка
-		И втВсеДанныеТЗ.Участник1 = втВсеБонусы1.Участник
+			И втВсеДанныеТЗ.Участник1 = втВсеБонусы1.Участник
 		ЛЕВОЕ СОЕДИНЕНИЕ втВсеБонусы КАК втВсеБонусы2
 		ПО втВсеДанныеТЗ.Ссылка = втВсеБонусы2.Ссылка
-		И втВсеДанныеТЗ.Участник2 = втВсеБонусы2.Участник
+			И втВсеДанныеТЗ.Участник2 = втВсеБонусы2.Участник
 		ЛЕВОЕ СОЕДИНЕНИЕ втПоследнееСоревнование КАК втПоследнееСоревнование1
 		ПО втВсеДанныеТЗ.Участник1 = втПоследнееСоревнование1.Участник
 		ЛЕВОЕ СОЕДИНЕНИЕ втПоследнееСоревнование КАК втПоследнееСоревнование2
@@ -283,7 +281,7 @@
 	</totalField>
 	<totalField>
 		<dataPath>Рейтинг1</dataPath>
-		<expression>Максимум(Рейтинг1)</expression>
+		<expression>Среднее(Рейтинг1)</expression>
 		<group>Участник1</group>
 	</totalField>
 	<totalField>
@@ -350,11 +348,9 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:use>false</dcsset:use>
 					<dcsset:field>Ссылка</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:use>false</dcsset:use>
 					<dcsset:field>Участник1</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -504,106 +500,6 @@
 							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
 						</dcscor:item>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
-						</dcscor:item>
-					</dcsset:appearance>
-				</dcsset:item>
-				<dcsset:item>
-					<dcsset:selection>
-						<dcsset:item>
-							<dcsset:field>Очки1</dcsset:field>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">Очки1</dcsset:left>
-							<dcsset:comparisonType>Greater</dcsset:comparisonType>
-							<dcsset:right xsi:type="dcscor:Field">Очки2</dcsset:right>
-						</dcsset:item>
-					</dcsset:filter>
-					<dcsset:appearance>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>ЦветТекста</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#008000</dcscor:value>
-						</dcscor:item>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-						</dcscor:item>
-					</dcsset:appearance>
-				</dcsset:item>
-				<dcsset:item>
-					<dcsset:selection>
-						<dcsset:item>
-							<dcsset:field>Очки1</dcsset:field>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">Очки2</dcsset:left>
-							<dcsset:comparisonType>Greater</dcsset:comparisonType>
-							<dcsset:right xsi:type="dcscor:Field">Очки1</dcsset:right>
-						</dcsset:item>
-					</dcsset:filter>
-					<dcsset:appearance>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>ЦветТекста</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
-						</dcscor:item>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-						</dcscor:item>
-					</dcsset:appearance>
-				</dcsset:item>
-				<dcsset:item>
-					<dcsset:selection>
-						<dcsset:item>
-							<dcsset:field>Очки2</dcsset:field>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">Очки2</dcsset:left>
-							<dcsset:comparisonType>Greater</dcsset:comparisonType>
-							<dcsset:right xsi:type="dcscor:Field">Очки1</dcsset:right>
-						</dcsset:item>
-					</dcsset:filter>
-					<dcsset:appearance>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>ЦветТекста</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#008000</dcscor:value>
-						</dcscor:item>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-						</dcscor:item>
-					</dcsset:appearance>
-				</dcsset:item>
-				<dcsset:item>
-					<dcsset:selection>
-						<dcsset:item>
-							<dcsset:field>Очки2</dcsset:field>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">Очки1</dcsset:left>
-							<dcsset:comparisonType>Greater</dcsset:comparisonType>
-							<dcsset:right xsi:type="dcscor:Field">Очки2</dcsset:right>
-						</dcsset:item>
-					</dcsset:filter>
-					<dcsset:appearance>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>ЦветТекста</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
-						</dcscor:item>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
 			</dcsset:conditionalAppearance>
@@ -681,9 +577,6 @@
 							<dcsset:selection>
 								<dcsset:item>
 									<dcsset:field>Итог</dcsset:field>
-								</dcsset:item>
-								<dcsset:item>
-									<dcsset:field>Прирост</dcsset:field>
 								</dcsset:item>
 							</dcsset:selection>
 							<dcsset:filter/>

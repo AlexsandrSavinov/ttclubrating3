@@ -63,9 +63,6 @@
           <key>ru</key>
           <value>Нет фото</value>
         </nonselectedPictureText>
-        <border xsi:type="core:BorderDef">
-          <style>Single</style>
-        </border>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -737,7 +734,7 @@
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
-        <verticalSpacing>Half</verticalSpacing>
+        <representation>WeakSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -835,6 +832,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>1/0:bfd25fcb-0bf0-4afb-90b6-a0f8a50a0007</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ИДТелеграммРасширеннаяПодсказка</name>
       <id>142</id>
@@ -1234,7 +1234,6 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
-      <verticalSpacing>Half</verticalSpacing>
       <representation>StrongSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -1786,6 +1785,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>ТаблицаВидовРейтингаСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1824,9 +1824,9 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>ТаблицаВидовРейтингаСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
-          <horizontalLocation>Left</horizontalLocation>
         </extInfo>
       </viewStatusAddition>
       <searchControlAddition>
@@ -1863,6 +1863,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>ТаблицаВидовРейтингаУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -2249,6 +2250,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>ТренерыСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -2287,9 +2289,9 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>ТренерыСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
-          <horizontalLocation>Left</horizontalLocation>
         </extInfo>
       </viewStatusAddition>
       <searchControlAddition>
@@ -2326,6 +2328,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>ТренерыУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -2685,21 +2688,27 @@
 	РейтингУчастниковСрезПоследних.ВидРейтинга,
 	РейтингУчастниковСрезПоследних.Рейтинг
 ИЗ
-	РегистрСведений.РейтингУчастников.СрезПоследних(, Участник = &amp;Участник
-	И ВидРейтинга = ЗНАЧЕНИЕ(Справочник.ВидыРейтинга.ПустаяСсылка)) КАК РейтингУчастниковСрезПоследних
+	РегистрСведений.РейтингУчастников.СрезПоследних КАК РейтингУчастниковСрезПоследних
+ГДЕ
+	РейтингУчастниковСрезПоследних.Участник = &amp;Участник
+	И РейтингУчастниковСрезПоследних.ВидРейтинга = ЗНАЧЕНИЕ(Справочник.ВидыРейтинга.ПустаяСсылка)
+
 
 ОБЪЕДИНИТЬ ВСЕ
 
+ 	
 ВЫБРАТЬ
 	РейтингУчастниковСрезПоследних.ВидРейтинга,
 	РейтингУчастниковСрезПоследних.Рейтинг
 ИЗ
-	РегистрСведений.РейтингУчастников.СрезПоследних(, Участник = &amp;Участник
-	И ВидРейтинга В
-		(ВЫБРАТЬ
-			ВидыРейтинга.Ссылка КАК ВидРейтинга
-		ИЗ
-			Справочник.ВидыРейтинга КАК ВидыРейтинга)) КАК РейтингУчастниковСрезПоследних</queryText>
+	РегистрСведений.РейтингУчастников.СрезПоследних КАК РейтингУчастниковСрезПоследних
+ГДЕ
+	РейтингУчастниковСрезПоследних.Участник = &amp;Участник
+	И РейтингУчастниковСрезПоследних.ВидРейтинга В
+			(ВЫБРАТЬ
+				ВидыРейтинга.Ссылка КАК ВидРейтинга
+			ИЗ
+				Справочник.ВидыРейтинга КАК ВидыРейтинга)</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
@@ -2745,7 +2754,13 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
-    <navigationPanel/>
+    <navigationPanel>
+      <cmiFragmentRecord>
+        <command>0:82596bcb-3cf5-4527-b056-8f34f1de5827</command>
+        <group>FormNavigationPanelGoTo</group>
+        <index>0</index>
+      </cmiFragmentRecord>
+    </navigationPanel>
     <commandBar>
       <cmiFragmentRecord>
         <command>Catalog.Участники.Command.ДетализацияПрироста</command>

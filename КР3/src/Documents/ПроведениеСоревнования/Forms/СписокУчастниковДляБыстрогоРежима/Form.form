@@ -4,48 +4,6 @@
     <key>ru</key>
     <value>Выбор участника</value>
   </title>
-  <items xsi:type="form:Addition">
-    <title>
-      <key>ru</key>
-      <value>Дополнение1</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <name>Поиск</name>
-    <id>31</id>
-    <extendedTooltip>
-      <name>ПоискРасширеннаяПодсказка</name>
-      <id>33</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ПоискКонтекстноеМеню</name>
-      <id>32</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <source>ТаблицаСтрокаПоиска</source>
-    <extInfo xsi:type="form:SearchStringAdditionExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-    </extInfo>
-  </items>
   <items xsi:type="form:Table">
     <name>Таблица</name>
     <id>1</id>
@@ -263,6 +221,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ТаблицаСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -301,9 +260,9 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ТаблицаСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
-        <horizontalLocation>Left</horizontalLocation>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
@@ -340,6 +299,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ТаблицаУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

@@ -7,19 +7,23 @@
       <name>ГруппаОбщиеНастройки</name>
       <id>17</id>
       <items xsi:type="form:FormField">
-        <name>ЗаголовокСистемы</name>
-        <id>315</id>
+        <name>ЗаголовокОкна</name>
+        <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.ЗаголовокСистемы</segments>
+          <segments>НаборКонстант.ЗаголовокОкна</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ЗаголовокОкнаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
-          <name>ЗаголовокСистемыРасширеннаяПодсказка</name>
-          <id>317</id>
+          <name>ЗаголовокОкнаРасширеннаяПодсказка</name>
+          <id>64</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -33,8 +37,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ЗаголовокСистемыКонтекстноеМеню</name>
-          <id>316</id>
+          <name>ЗаголовокОкнаКонтекстноеМеню</name>
+          <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -48,7 +52,6 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
           <chooseType>true</chooseType>
@@ -803,23 +806,24 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ТекущаяВерсияПрограммы</name>
-        <id>312</id>
-        <titleFont xsi:type="core:FontRef">
-          <font>Style.ВладелецФайловШрифт</font>
-        </titleFont>
+        <name>ПроверятьОбновлениеПрограммы</name>
+        <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Проверять обновление программы при включении</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ТекущаяВерсияПрограммы</segments>
+          <segments>НаборКонстант.ПроверятьОбновлениеПрограммы</segments>
         </dataPath>
-        <titleLocation>Top</titleLocation>
+        <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>ТекущаяВерсияПрограммыРасширеннаяПодсказка</name>
-          <id>314</id>
+          <name>ПроверятьОбновлениеПрограммыРасширеннаяПодсказка</name>
+          <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -833,8 +837,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ТекущаяВерсияПрограммыКонтекстноеМеню</name>
-          <id>313</id>
+          <name>ПроверятьОбновлениеПрограммыКонтекстноеМеню</name>
+          <id>13</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -842,21 +846,13 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
-        <horizontalAlign>Center</horizontalAlign>
+        <type>CheckBoxField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <font xsi:type="core:FontRef">
-            <font>Style.ВажнаяНадписьШрифт</font>
-          </font>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+          <checkBoxType>Switcher</checkBoxType>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2454,6 +2450,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
+              <source>СписокДляПубликацийСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2492,9 +2489,9 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
+              <source>СписокДляПубликацийСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
-                <horizontalLocation>Left</horizontalLocation>
               </extInfo>
             </viewStatusAddition>
             <searchControlAddition>
@@ -2531,6 +2528,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
+              <source>СписокДляПубликацийУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2652,10 +2650,6 @@
                 </dataPath>
                 <titleLocation>Right</titleLocation>
                 <toolTipRepresentation>Button</toolTipRepresentation>
-                <handlers>
-                  <event>OnChange</event>
-                  <name>ИспользоватьБотаTtclubratingПриИзменении</name>
-                </handlers>
                 <extendedTooltip>
                   <name>ИспользоватьБотаTtclubratingРасширеннаяПодсказка</name>
                   <id>306</id>
@@ -2922,6 +2916,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
+                <source>ТелеграммБотыСтрокаПоиска</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -2960,9 +2955,9 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
+                <source>ТелеграммБотыСостояниеПросмотра</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
-                  <horizontalLocation>Left</horizontalLocation>
                 </extInfo>
               </viewStatusAddition>
               <searchControlAddition>
@@ -2999,6 +2994,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
+                <source>ТелеграммБотыУправлениеПоиском</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -3414,6 +3410,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
+                <source>ПроксиСервераСтрокаПоиска</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -3452,9 +3449,9 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
+                <source>ПроксиСервераСостояниеПросмотра</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
-                  <horizontalLocation>Left</horizontalLocation>
                 </extInfo>
               </viewStatusAddition>
               <searchControlAddition>
@@ -3491,6 +3488,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
+                <source>ПроксиСервераУправлениеПоиском</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -3876,6 +3874,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
+              <source>СписокДляПубликацийТелеграммСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3914,9 +3913,9 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
+              <source>СписокДляПубликацийТелеграммСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
-                <horizontalLocation>Left</horizontalLocation>
               </extInfo>
             </viewStatusAddition>
             <searchControlAddition>
@@ -3953,6 +3952,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
+              <source>СписокДляПубликацийТелеграммУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -4157,6 +4157,58 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <items xsi:type="form:FormField">
+    <name>ТекущаяВерсияПрограммы</name>
+    <id>36</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>НаборКонстант.ТекущаяВерсияПрограммы</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ТекущаяВерсияПрограммыРасширеннаяПодсказка</name>
+      <id>95</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ТекущаяВерсияПрограммыКонтекстноеМеню</name>
+      <id>37</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <readOnly>true</readOnly>
+    <horizontalAlign>Center</horizontalAlign>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -4206,6 +4258,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -4343,26 +4396,6 @@
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
-  </attributes>
-  <attributes>
-    <name>ТекущаяВерсияПрограммы</name>
-    <title>
-      <key>ru</key>
-      <value>Текущая версия программы</value>
-    </title>
-    <id>8</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>20</length>
-      </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <formCommands>
     <name>КомандаОбновить</name>

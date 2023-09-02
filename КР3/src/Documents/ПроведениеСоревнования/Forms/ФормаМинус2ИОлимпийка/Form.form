@@ -34,10 +34,6 @@
         <excludedCommands>SaveAs</excludedCommands>
         <excludedCommands>SelectAll</excludedCommands>
         <excludedCommands>ShowGroups</excludedCommands>
-        <handlers>
-          <event>AdditionalDetailProcessing</event>
-          <name>ТабДокОбработкаДополнительнойРасшифровки</name>
-        </handlers>
         <extendedTooltip>
           <name>ТабДокРасширеннаяПодсказка</name>
           <id>186</id>
@@ -68,6 +64,10 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
+          <handlers>
+            <event>AdditionalDetailProcessing</event>
+            <name>ТабДокОбработкаДополнительнойРасшифровки</name>
+          </handlers>
           <handlers>
             <event>DetailProcessing</event>
             <name>ТабДокОбработкаРасшифровки</name>
@@ -897,6 +897,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ТаблицаМониторингаСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -935,9 +936,9 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ТаблицаМониторингаСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -974,6 +975,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ТаблицаМониторингаУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2130,6 +2132,82 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВторойИгрокТабл</name>
+    <title>
+      <key>ru</key>
+      <value>Второй игрок табл</value>
+    </title>
+    <id>13</id>
+    <valueType>
+      <types>CatalogRef.Участники</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПервыйИгрокТабл</name>
+    <title>
+      <key>ru</key>
+      <value>Первый игрок табл</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>CatalogRef.Участники</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОчкиПартии1Табл</name>
+    <title>
+      <key>ru</key>
+      <value>Очки партии1 табл</value>
+    </title>
+    <id>15</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОчкиПартии2Табл</name>
+    <title>
+      <key>ru</key>
+      <value>Очки партии2 табл</value>
+    </title>
+    <id>16</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
