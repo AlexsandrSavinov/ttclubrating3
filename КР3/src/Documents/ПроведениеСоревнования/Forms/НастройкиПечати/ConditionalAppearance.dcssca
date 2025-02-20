@@ -15,6 +15,10 @@
 		</filter>
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>Текст</dcscor:parameter>
 				<dcscor:value xsi:type="v8:LocalStringType">
 					<v8:item>
@@ -22,10 +26,6 @@
 						<v8:content>&lt;Настройки мест&gt;</v8:content>
 					</v8:item>
 				</dcscor:value>
-			</dcscor:item>
-			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:parameter>ЦветТекста</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>
@@ -44,6 +44,10 @@
 		</filter>
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#000000</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>Текст</dcscor:parameter>
 				<dcscor:value xsi:type="v8:LocalStringType">
 					<v8:item>
@@ -51,10 +55,6 @@
 						<v8:content>+ &lt;Настройки мест&gt;</v8:content>
 					</v8:item>
 				</dcscor:value>
-			</dcscor:item>
-			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:parameter>ЦветТекста</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">#000000</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>

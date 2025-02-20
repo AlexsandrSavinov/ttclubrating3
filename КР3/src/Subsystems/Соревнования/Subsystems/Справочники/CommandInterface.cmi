@@ -23,12 +23,6 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>0:80ef67c9-8c7c-4c2b-9379-455596bdfa34</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -36,7 +30,6 @@
       <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
       <commands>InformationRegister.РазрядыУчастников.StandardCommand.OpenList</commands>
       <commands>Catalog.ВидыРейтинга.StandardCommand.OpenList</commands>
-      <commands>0:80ef67c9-8c7c-4c2b-9379-455596bdfa34</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -55,7 +48,6 @@
       <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
       <commands>InformationRegister.РазрядыУчастников.StandardCommand.OpenList</commands>
       <commands>Catalog.ВидыРейтинга.StandardCommand.OpenList</commands>
-      <commands>0:80ef67c9-8c7c-4c2b-9379-455596bdfa34</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

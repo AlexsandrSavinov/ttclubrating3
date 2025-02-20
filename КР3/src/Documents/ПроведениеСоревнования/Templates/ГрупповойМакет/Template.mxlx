@@ -108,6 +108,7 @@
 	</columns>
 	<rowsItem>
 		<index>0</index>
+		<indexTo>1</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -319,6 +320,7 @@
 	</rowsItem>
 	<rowsItem>
 		<index>7</index>
+		<indexTo>8</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -332,12 +334,7 @@
 	</rowsItem>
 	<rowsItem>
 		<index>10</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>12</index>
+		<indexTo>13</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -705,7 +702,7 @@
 	</format>
 	<format>
 		<border>0</border>
-		<backColor xmlns:webc="http://v8.1c.ru/8.1/data/ui/colors/web">webc:DarkGray</backColor>
+		<backColor xmlns:d3p1="http://v8.1c.ru/8.1/data/ui/colors/web">d3p1:DarkGray</backColor>
 	</format>
 	<format>
 		<font>3</font>

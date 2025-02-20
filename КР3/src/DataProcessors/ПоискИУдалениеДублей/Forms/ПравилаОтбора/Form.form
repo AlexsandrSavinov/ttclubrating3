@@ -23,30 +23,15 @@
     <autoCommandBar>
       <name>КомпоновщикПредварительногоОтбораНастройкиОтборКоманднаяПанель</name>
       <id>3</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <name>КомпоновщикПредварительногоОтбораНастройкиОтборSearchString</name>
+      <name>КомпоновщикПредварительногоОтбораНастройкиОтборСтрокаПоиска</name>
       <id>13</id>
       <extendedTooltip>
-        <name>КомпоновщикПредварительногоОтбораНастройкиОтборSearchStringExtendedTooltip</name>
+        <name>КомпоновщикПредварительногоОтбораНастройкиОтборSearchStringРасширеннаяПодсказка</name>
         <id>15</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -55,35 +40,21 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КомпоновщикПредварительногоОтбораНастройкиОтборSearchStringContextMenu</name>
+        <name>КомпоновщикПредварительногоОтбораНастройкиОтборСтрокаПоискаКонтекстноеМеню</name>
         <id>14</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>КомпоновщикПредварительногоОтбораНастройкиОтбор</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <name>КомпоновщикПредварительногоОтбораНастройкиОтборViewStatus</name>
+      <name>КомпоновщикПредварительногоОтбораНастройкиОтборСостояниеПросмотра</name>
       <id>16</id>
       <extendedTooltip>
-        <name>КомпоновщикПредварительногоОтбораНастройкиОтборViewStatusExtendedTooltip</name>
+        <name>КомпоновщикПредварительногоОтбораНастройкиОтборСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>18</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -92,36 +63,22 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КомпоновщикПредварительногоОтбораНастройкиОтборViewStatusContextMenu</name>
+        <name>КомпоновщикПредварительногоОтбораНастройкиОтборViewStatusКонтекстноеМеню</name>
         <id>17</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>КомпоновщикПредварительногоОтбораНастройкиОтбор</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <name>КомпоновщикПредварительногоОтбораНастройкиОтборSearchControl</name>
+      <name>КомпоновщикПредварительногоОтбораНастройкиОтборУправлениеПоиском</name>
       <id>19</id>
       <extendedTooltip>
-        <name>КомпоновщикПредварительногоОтбораНастройкиОтборSearchControlExtendedTooltip</name>
+        <name>КомпоновщикПредварительногоОтбораНастройкиОтборУправлениеПоискомРасширеннаяПодсказка</name>
         <id>21</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -130,16 +87,12 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КомпоновщикПредварительногоОтбораНастройкиОтборSearchControlContextMenu</name>
+        <name>КомпоновщикПредварительногоОтбораНастройкиОтборУправлениеПоискомКонтекстноеМеню</name>
         <id>20</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>КомпоновщикПредварительногоОтбораНастройкиОтбор</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -147,11 +100,6 @@
     <extendedTooltip>
       <name>КомпоновщикПредварительногоОтбораНастройкиОтборРасширеннаяПодсказка</name>
       <id>4</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -162,11 +110,6 @@
     <contextMenu>
       <name>КомпоновщикПредварительногоОтбораНастройкиОтборКонтекстноеМеню</name>
       <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <representation>Tree</representation>
@@ -212,11 +155,6 @@
         <extendedTooltip>
           <name>ФормаВыбратьРасширеннаяПодсказка</name>
           <id>6</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -243,11 +181,6 @@
         <extendedTooltip>
           <name>ФормаОтменаРасширеннаяПодсказка</name>
           <id>10</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -274,11 +207,6 @@
       <extendedTooltip>
         <name>ГруппаСкрытоНаМобильномКлиентеРасширеннаяПодсказка</name>
         <id>23</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -302,11 +230,6 @@
         <extendedTooltip>
           <name>ФормаСправкаРасширеннаяПодсказка</name>
           <id>8</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -333,11 +256,6 @@
       <extendedTooltip>
         <name>ФормаГруппаСправкиРасширеннаяПодсказка</name>
         <id>12</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -347,11 +265,6 @@
       </extendedTooltip>
       <extInfo xsi:type="form:ButtonGroupExtInfo"/>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
@@ -363,6 +276,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
