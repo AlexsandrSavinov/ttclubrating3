@@ -535,6 +535,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="5b20b98b-8417-465a-bd66-2c0636b71bca">
+    <name>НастройкаМестДляПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка мест для печати</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="6e40533a-d530-49e4-a9a5-4eada7673a20">
     <producedTypes>
       <objectType typeId="527cdf55-962f-4e8e-9d18-df37758f80ce" valueTypeId="d0d5ad7c-1b85-492b-976a-fb12f58a6d18"/>

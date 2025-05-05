@@ -9,6 +9,9 @@
     <value>Предмет напоминания</value>
   </synonym>
   <type>
+    <types>DocumentRef.ПроведениеСоревнования</types>
+    <types>DocumentRef.КорректировкаРейтинга</types>
+    <types>CatalogRef.Участники</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>
 </mdclass:DefinedType>

@@ -13,13 +13,8 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ТекстСообщенияExtendedTooltip</name>
+      <name>ТекстСообщенияРасширеннаяПодсказка</name>
       <id>12</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -30,11 +25,6 @@
     <contextMenu>
       <name>ТекстСообщенияКонтекстноеМеню</name>
       <id>3</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>LabelField</type>
@@ -69,13 +59,8 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ПрименитьДляВсехExtendedTooltip</name>
+      <name>ПрименитьДляВсехРасширеннаяПодсказка</name>
       <id>13</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -86,11 +71,6 @@
     <contextMenu>
       <name>ПрименитьДляВсехКонтекстноеМеню</name>
       <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>CheckBoxField</type>
@@ -115,13 +95,8 @@
     </title>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
-      <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
+      <name>ОсновнаяКоманднаяПанельРасширеннаяПодсказка</name>
       <id>14</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -149,13 +124,8 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПерезаписатьExtendedTooltip</name>
+        <name>ПерезаписатьРасширеннаяПодсказка</name>
         <id>9</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -180,13 +150,8 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПропуститьExtendedTooltip</name>
+        <name>ПропуститьРасширеннаяПодсказка</name>
         <id>10</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -211,13 +176,8 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПрерватьExtendedTooltip</name>
+        <name>ПрерватьРасширеннаяПодсказка</name>
         <id>11</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -232,11 +192,6 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
@@ -257,6 +212,7 @@
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

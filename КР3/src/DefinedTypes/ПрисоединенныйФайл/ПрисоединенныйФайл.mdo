@@ -9,6 +9,7 @@
     <value>Присоединенный файл</value>
   </synonym>
   <type>
+    <types>CatalogRef.ПроведениеСоревнованияПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
   </type>

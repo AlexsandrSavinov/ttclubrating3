@@ -25,17 +25,12 @@
         <name>ИзменятьВТранзакцииПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ИзменятьВТранзакцииExtendedTooltip</name>
+        <name>ИзменятьВТранзакцииРасширеннаяПодсказка</name>
         <id>54</id>
         <title>
           <key>ru</key>
           <value>При невозможности изменения элементов в транзакции все изменения будут отменены.</value>
         </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
         <textColor xsi:type="core:ColorRef">
@@ -48,11 +43,6 @@
       <contextMenu>
         <name>ИзменятьВТранзакцииКонтекстноеМеню</name>
         <id>2</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
@@ -72,13 +62,8 @@
       <value>Изменять в транзакции</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаИзменятьВТранзакцииExtendedTooltip</name>
+      <name>ГруппаИзменятьВТранзакцииРасширеннаяПодсказка</name>
       <id>53</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -112,17 +97,12 @@
       <titleLocation>Right</titleLocation>
       <toolTipRepresentation>ShowBottom</toolTipRepresentation>
       <extendedTooltip>
-        <name>ПрерыватьПриОшибкеExtendedTooltip</name>
+        <name>ПрерыватьПриОшибкеРасширеннаяПодсказка</name>
         <id>57</id>
         <title>
           <key>ru</key>
           <value>Предупреждать, если во время изменения элементов возникнут ошибки.</value>
         </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
         <textColor xsi:type="core:ColorRef">
@@ -135,11 +115,6 @@
       <contextMenu>
         <name>ПрерыватьПриОшибкеКонтекстноеМеню</name>
         <id>38</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
@@ -159,13 +134,8 @@
       <value>Прерывание при ошибке</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПрерываниеПриОшибкеExtendedTooltip</name>
+      <name>ГруппаПрерываниеПриОшибкеРасширеннаяПодсказка</name>
       <id>56</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -199,17 +169,12 @@
       <titleLocation>Right</titleLocation>
       <toolTipRepresentation>ShowBottom</toolTipRepresentation>
       <extendedTooltip>
-        <name>ОбрабатыватьГруппыРекурсивноExtendedTooltip</name>
+        <name>ОбрабатыватьГруппыРекурсивноРасширеннаяПодсказка</name>
         <id>60</id>
         <title>
           <key>ru</key>
           <value>Обрабатывать дочерние элементы групп и родительских элементов.</value>
         </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
         <textColor xsi:type="core:ColorRef">
@@ -222,11 +187,6 @@
       <contextMenu>
         <name>ОбрабатыватьГруппыРекурсивноКонтекстноеМеню</name>
         <id>4</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
@@ -246,13 +206,8 @@
       <value>Обрабатывать рекурсивно</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОбрабатыватьРекурсивноExtendedTooltip</name>
+      <name>ГруппаОбрабатыватьРекурсивноРасширеннаяПодсказка</name>
       <id>59</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -295,11 +250,6 @@
             <key>ru</key>
             <value>Отображать реквизиты, значения которых не рекомендуется изменять этой обработкой.</value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
@@ -312,11 +262,6 @@
         <contextMenu>
           <name>ПоказыватьСлужебныеРеквизитыКонтекстноеМеню</name>
           <id>81</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
@@ -338,11 +283,6 @@
       <extendedTooltip>
         <name>ГруппаПоказыватьСлужебныеРеквизитыРасширеннаяПодсказка</name>
         <id>79</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -386,11 +326,6 @@
             <key>ru</key>
             <value>Выполнять запись объектов в режиме ОбменДанными.Загрузка = Истина.</value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
@@ -403,11 +338,6 @@
         <contextMenu>
           <name>РежимРазработчикаКонтекстноеМеню</name>
           <id>89</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
@@ -429,11 +359,6 @@
       <extendedTooltip>
         <name>ГруппаРежимРазработчикаРасширеннаяПодсказка</name>
         <id>87</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -473,11 +398,6 @@
             <key>ru</key>
             <value>При выборе значений не использовать отборы, прописанные в свойствах реквизитов СвязиПараметровВыбора и ПараметрыВыбора.</value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
@@ -490,11 +410,6 @@
         <contextMenu>
           <name>ОтключитьСвязиПараметровВыбораКонтекстноеМеню</name>
           <id>94</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
@@ -516,11 +431,6 @@
       <extendedTooltip>
         <name>ГруппаНастройкиВыбораИзСписковРасширеннаяПодсказка</name>
         <id>92</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -549,11 +459,6 @@
     <extendedTooltip>
       <name>СпециальныеВозможностиРасширеннаяПодсказка</name>
       <id>97</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -588,13 +493,8 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>50</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -619,13 +519,8 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>51</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -649,13 +544,8 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>52</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -670,11 +560,6 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
@@ -686,6 +571,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
